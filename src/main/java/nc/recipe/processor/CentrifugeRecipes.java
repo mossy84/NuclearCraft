@@ -36,6 +36,8 @@ public class CentrifugeRecipes extends ProcessorRecipeHandler {
 		addFuelIsotopeRecipes("ecm", "curium", 246, 243, 245, 247);
 		addFuelIsotopeRecipes("eb", "berkelium", 247, 248);
 		addFuelIsotopeRecipes("ecf", "californium", 252, 249, 251);
+		addFuelIsotopeRecipes("ees", "einsteinium", 253, 254);
+		addFuelIsotopeRecipes("efm", "fermium", 255, 257);
 		
 		//addElementFLIBERecipes("thorium", "uranium", "plutonium");
 		
@@ -54,6 +56,8 @@ public class CentrifugeRecipes extends ProcessorRecipeHandler {
 		addIsotopeFLIBERecipes("curium", 243, 245, 246, 247);
 		addIsotopeFLIBERecipes("berkelium", 247, 248);
 		addIsotopeFLIBERecipes("californium", 249, 250, 251, 252);
+		addIsotopeFLIBERecipes("einsteinium", 253, 254, 255);
+		addIsotopeFLIBERecipes("fermium", 254, 255, 257);
 		
 		addRecipe(fluidStack("fuel_tbu_fluoride_flibe", FluidStackHelper.INGOT_VOLUME*2), fluidStack("fuel_tbu_fluoride", FluidStackHelper.INGOT_VOLUME), fluidStack("flibe", FluidStackHelper.INGOT_VOLUME), emptyFluidStack(), emptyFluidStack(), 1D, 1D);
 		addRecipe(fluidStack("depleted_fuel_tbu_fluoride_flibe", FluidStackHelper.INGOT_VOLUME*2), fluidStack("depleted_fuel_tbu_fluoride", FluidStackHelper.INGOT_VOLUME), fluidStack("flibe", FluidStackHelper.INGOT_VOLUME), emptyFluidStack(), emptyFluidStack(), 1D, 1D);
@@ -64,6 +68,8 @@ public class CentrifugeRecipes extends ProcessorRecipeHandler {
 		addFissionFuelFLIBERecipes("ecm", 243, 245, 247);
 		addFissionFuelFLIBERecipes("eb", 248);
 		addFissionFuelFLIBERecipes("ecf", 249, 251);
+		addFissionFuelFLIBERecipes("ees", 254);
+		addFissionFuelFLIBERecipes("efm", 255);
 		
 		// Fuel Reprocessing
 		
@@ -102,8 +108,14 @@ public class CentrifugeRecipes extends ProcessorRecipeHandler {
 		addReprocessingRecipes("lecf_249", "californium_250", 4, "californium_251", 2, "californium_252", 5, "californium_252", 5);
 		addReprocessingRecipes("hecf_249", "californium_250", 8, "californium_251", 4, "californium_252", 2, "californium_252", 2);
 		
-		addReprocessingRecipes("lecf_251", "californium_251", 1, "californium_252", 5, "californium_252", 5, "californium_252", 5);
-		addReprocessingRecipes("hecf_251", "californium_251", 4, "californium_252", 4, "californium_252", 4, "californium_252", 4);
+		addReprocessingRecipes("lecf_251", "californium_251", 2, "californium_252", 10, "einsteinium_253", 3, "einsteinium_254", 1);
+		addReprocessingRecipes("hecf_251", "californium_251", 4, "californium_252", 4, "einsteinium_253", 5, "einsteinium_254", 3);
+		
+		addReprocessingRecipes("lees_254", "einsteinium_254", 8, "einsteinium_255", 2, "fermium_255", 3, "fermium_257", 5);
+		addReprocessingRecipes("hees_254", "einsteinium_254", 1, "einsteinium_255", 4, "fermium_255", 4, "fermium_257", 7);
+		
+		addReprocessingRecipes("lefm_255", "fermium_254", 2, "fermium_255", 6, "fermium_257", 4, "fermium_257", 4);
+		addReprocessingRecipes("lefm_255", "fermium_254", 4, "fermium_255", 4, "fermium_257", 4, "fermium_257", 4);
 	}
 	
 	public void addCoolantNAKRecipe(String name, int amount) {
