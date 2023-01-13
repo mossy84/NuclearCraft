@@ -68,6 +68,8 @@ public class ChemicalReactorRecipes extends ProcessorRecipeHandler {
 		addIsotopeFluorideRecipes("curium", 243, 245, 246, 247);
 		addIsotopeFluorideRecipes("berkelium", 247, 248);
 		addIsotopeFluorideRecipes("californium", 249, 250, 251, 252);
+		addIsotopeFluorideRecipes("einsteinium", 253, 254, 255);
+		addIsotopeFluorideRecipes("fermium", 254, 255, 257);
 		
 		addRecipe(fluidStack("fuel_tbu", FluidStackHelper.INGOT_VOLUME), fluidStack("fluorine", FluidStackHelper.BUCKET_VOLUME), fluidStack("fuel_tbu_fluoride", FluidStackHelper.INGOT_VOLUME), emptyFluidStack(), 1D, 0.5D);
 		addRecipe(fluidStack("depleted_fuel_tbu", FluidStackHelper.INGOT_VOLUME), fluidStack("fluorine", FluidStackHelper.BUCKET_VOLUME), fluidStack("depleted_fuel_tbu_fluoride", FluidStackHelper.INGOT_VOLUME), emptyFluidStack(), 1D, 0.5D);
@@ -78,6 +80,8 @@ public class ChemicalReactorRecipes extends ProcessorRecipeHandler {
 		addFissionFuelFluorideRecipes("ecm", 243, 245, 247);
 		addFissionFuelFluorideRecipes("eb", 248);
 		addFissionFuelFluorideRecipes("ecf", 249, 251);
+		addFissionFuelFluorideRecipes("ees", 254);
+		addFissionFuelFluorideRecipes("efm", 255);
 	}
 	
 	public void addElementFluorideRecipes(String... elements) {
