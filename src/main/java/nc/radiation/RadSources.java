@@ -249,6 +249,10 @@ public class RadSources {
 		putFuel(CALIFORNIUM_252, CALIFORNIUM_249, "Cf249", "cf_249");
 		putFuel(CALIFORNIUM_252, CALIFORNIUM_251, "Cf251", "cf_251");
 		
+		putFuel(EINSTEINIUM_253, EINSTEINIUM_254, "Es254", "es_254");
+		
+		putFuel(FERMIUM_257, FERMIUM_255, "Fm255", "fm_255");
+		
 		putDepletedFuel(URANIUM_233, 16, URANIUM_235, 8, NEPTUNIUM_236, 8, NEPTUNIUM_237, 32, "TBU", "tbu");
 		
 		putDepletedFuel(URANIUM_238, 40, NEPTUNIUM_237, 8, PLUTONIUM_239, 8, PLUTONIUM_241, 8, "LEU235", "leu_235");
@@ -287,8 +291,14 @@ public class RadSources {
 		putDepletedFuel(CALIFORNIUM_250, 16, CALIFORNIUM_251, 8, CALIFORNIUM_252, 20, CALIFORNIUM_252, 20, "LECf249", "lecf_249");
 		putDepletedFuel(CALIFORNIUM_250, 32, CALIFORNIUM_251, 16, CALIFORNIUM_252, 8, CALIFORNIUM_252, 8, "HECf249", "hecf_249");
 		
-		putDepletedFuel(CALIFORNIUM_251, 4, CALIFORNIUM_252, 20, CALIFORNIUM_252, 20, CALIFORNIUM_252, 20, "LECf251", "lecf_251");
-		putDepletedFuel(CALIFORNIUM_251, 16, CALIFORNIUM_252, 16, CALIFORNIUM_252, 16, CALIFORNIUM_252, 16, "HECf251", "hecf_251");
+		putDepletedFuel(CALIFORNIUM_251, 8, CALIFORNIUM_252, 40, EINSTEINIUM_253, 12, EINSTEINIUM_254, 4, "LECf251", "lecf_251");
+		putDepletedFuel(CALIFORNIUM_251, 16, CALIFORNIUM_252, 16, EINSTEINIUM_253, 20, EINSTEINIUM_254, 12, "HECf251", "hecf_251");
+		
+		putDepletedFuel(EINSTEINIUM_254, 32, EINSTEINIUM_255, 8, FERMIUM_255, 12, FERMIUM_257, 20, "LEEs254", "lees_254");
+		putDepletedFuel(EINSTEINIUM_254, 12, EINSTEINIUM_255, 16, FERMIUM_255, 16, FERMIUM_257, 28, "HEEs254", "hees_254");
+		
+		putDepletedFuel(FERMIUM_254, 8, FERMIUM_255, 20, FERMIUM_255, 20, FERMIUM_257, 16, "LEFm255", "lefm_255");
+		putDepletedFuel(FERMIUM_254, 16, FERMIUM_255, 16, FERMIUM_255, 16, FERMIUM_257, 16, "HEFm255", "hefm_255");
 		
 		put(URANIUM_238*4, "plateDU");
 		
@@ -296,6 +306,8 @@ public class RadSources {
 		put(PLUTONIUM_238/4D, NCBlocks.rtg_plutonium);
 		put(AMERICIUM_241/4D, NCBlocks.rtg_americium);
 		put(CALIFORNIUM_250/4D, NCBlocks.rtg_californium);
+		put(EINSTEINIUM_255/4D, NCBlocks.rtg_einsteinium);
+		put(FERMIUM_254/4D, NCBlocks.rtg_fermium);
 		
 		put(THORIUM_230*9D/4D, NCBlocks.helium_collector);
 		put(THORIUM_230*8D*9D/4D, NCBlocks.helium_collector_compact);
@@ -351,6 +363,14 @@ public class RadSources {
 		putFissionFluid(CALIFORNIUM_250, "californium_250");
 		putFissionFluid(CALIFORNIUM_251, "californium_251");
 		putFissionFluid(CALIFORNIUM_252, "californium_252");
+		
+		putFissionFluid(EINSTEINIUM_253, "einsteinium_253");
+		putFissionFluid(EINSTEINIUM_254, "einsteinium_254");
+		putFissionFluid(EINSTEINIUM_255, "einsteinium_255");
+		
+		putFissionFluid(FERMIUM_254, "fermium_254");
+		putFissionFluid(FERMIUM_255, "fermium_255");
+		putFissionFluid(FERMIUM_257, "fermium_257");
 		
 		// Custom and Stack Entries
 		
@@ -533,4 +553,10 @@ public class RadSources {
 	public static final double HECf_249 = getFuelRadiation(CALIFORNIUM_252, 5, CALIFORNIUM_249, 4);
 	public static final double LECf_251 = getFuelRadiation(CALIFORNIUM_252, 8, CALIFORNIUM_251, 1);
 	public static final double HECf_251 = getFuelRadiation(CALIFORNIUM_252, 5, CALIFORNIUM_251, 4);
+	
+	public static final double LEEs_254 = getFuelRadiation(EINSTEINIUM_253, 8, EINSTEINIUM_254, 1);
+	public static final double HEEs_254 = getFuelRadiation(EINSTEINIUM_253, 5, EINSTEINIUM_254, 4);
+	
+	public static final double LEFm_255 = getFuelRadiation(FERMIUM_257, 8, FERMIUM_255, 1);
+	public static final double HEFm_255 = getFuelRadiation(FERMIUM_257, 5, FERMIUM_255, 4);
 }
