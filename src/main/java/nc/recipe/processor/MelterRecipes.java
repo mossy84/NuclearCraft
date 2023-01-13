@@ -144,6 +144,8 @@ public class MelterRecipes extends ProcessorRecipeHandler {
 		addIsotopeMeltingRecipes("curium", 243, 245, 246, 247);
 		addIsotopeMeltingRecipes("berkelium", 247, 248);
 		addIsotopeMeltingRecipes("californium", 249, 250, 251, 252);
+		addIsotopeMeltingRecipes("einsteinium", 253, 254, 255);
+		addIsotopeMeltingRecipes("fermium", 254, 255, 257);
 		
 		// Fission Fuels
 		for (String suffix : new String[] {"", "Oxide"}) {
@@ -157,6 +159,8 @@ public class MelterRecipes extends ProcessorRecipeHandler {
 		addFissionFuelMeltingRecipes("curium", "ec", "m", 243, 245, 247);
 		addFissionFuelMeltingRecipes("berkelium", "eb", 248);
 		addFissionFuelMeltingRecipes("californium", "ec", "f", 249, 251);
+		addFissionFuelMeltingRecipes("einsteinium", "ee", "s", 254);
+		addFissionFuelMeltingRecipes("fermium", "ef", "m", 255);
 		
 		addRecipe(Blocks.ICE, fluidStack("water", FluidStackHelper.BUCKET_VOLUME), 0.25D, 0.5D);
 		addRecipe(Blocks.PACKED_ICE, fluidStack("water", FluidStackHelper.BUCKET_VOLUME), 0.5D, 0.5D);
