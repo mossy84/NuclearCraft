@@ -261,6 +261,8 @@ public class BlockEnums {
 		RTG_PLUTONIUM("rtg_plutonium", NCTabs.MACHINES),
 		RTG_AMERICIUM("rtg_americium", NCTabs.MACHINES),
 		RTG_CALIFORNIUM("rtg_californium", NCTabs.MACHINES),
+		RTG_EINSTEINIUM("rtg_einsteinium", NCTabs.MACHINES),
+		RTG_FERMIUM("rtg_fermium", NCTabs.MACHINES),
 		
 		SOLAR_PANEL_BASIC("solar_panel_basic", NCTabs.MACHINES),
 		SOLAR_PANEL_ADVANCED("solar_panel_advanced", NCTabs.MACHINES),
@@ -333,6 +335,10 @@ public class BlockEnums {
 				return new TileRTG.Americium();
 			case RTG_CALIFORNIUM:
 				return new TileRTG.Californium();
+			case RTG_EINSTEINIUM:
+				return new TileRTG.Einsteinium();
+			case RTG_FERMIUM:
+				return new TileRTG.Fermium();
 			
 			case SOLAR_PANEL_BASIC:
 				return new TileSolarPanel.Basic();
