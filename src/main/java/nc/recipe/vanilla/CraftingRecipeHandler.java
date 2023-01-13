@@ -102,6 +102,8 @@ public class CraftingRecipeHandler {
 		blockCompress(NCBlocks.block_depleted_curium, 0, "blockCurium246", "ingotCurium246");
 		blockCompress(NCBlocks.block_depleted_berkelium, 0, "blockBerkelium247", "ingotBerkelium247");
 		blockCompress(NCBlocks.block_depleted_californium, 0, "blockCalifornium252", "ingotCalifornium252");
+		blockCompress(NCBlocks.block_depleted_einsteinium, 0, "blockEinsteinium253", "ingotEinstinium253");
+		blockCompress(NCBlocks.block_depleted_fermium, 0, "blockFermium257", "ingotFermium257");
 		
 		blockOpen(NCItems.thorium, 0, "ingotThorium230", "blockThorium230");
 		blockOpen(NCItems.uranium, 8, "ingotUranium238", "blockUranium238");
@@ -111,6 +113,8 @@ public class CraftingRecipeHandler {
 		blockOpen(NCItems.curium, 8, "ingotCurium246", "blockCurium246");
 		blockOpen(NCItems.berkelium, 0, "ingotBerkelium247", "blockBerkelium247");
 		blockOpen(NCItems.californium, 12, "ingotCalifornium252", "blockCalifornium252");
+		blockOpen(NCItems.einsteinium, 0, "ingotEinsteinium253", "blockEinsteinium253");
+		blockOpen(NCItems.fermium, 12, "ingotFermium257", "blockFermium257");
 		
 		addShapedOreRecipe(NCBlocks.nuclear_furnace_idle, new Object[] {"PTP", "TFT", "PTP", 'T', "ingotTough", 'P', "plateBasic", 'F', Blocks.FURNACE});
 		
@@ -156,6 +160,8 @@ public class CraftingRecipeHandler {
 		addShapedOreRecipe(NCBlocks.rtg_plutonium, new Object[] {"PGP", "GUG", "PGP", 'G', "ingotGraphite", 'P', "plateAdvanced", 'U', "ingotPlutonium238"});
 		addShapedOreRecipe(NCBlocks.rtg_americium, new Object[] {"PGP", "GAG", "PGP", 'G', "ingotGraphite", 'P', "plateAdvanced", 'A', "ingotAmericium241"});
 		addShapedOreRecipe(NCBlocks.rtg_californium, new Object[] {"PGP", "GCG", "PGP", 'G', "ingotGraphite", 'P', "plateAdvanced", 'C', "ingotCalifornium250"});
+		addShapedOreRecipe(NCBlocks.rtg_einsteinium, new Object[] {"PGP", "GEG", "PGP", 'G', "ingotGraphite", 'P', "plateAdvanced", 'E', "ingotEinsteinium255"});
+		addShapedOreRecipe(NCBlocks.rtg_fermium, new Object[] {"PGP", "GFG", "PGP", 'G', "ingotGraphite", 'P', "plateAdvanced", 'F', "ingotFermium254"});
 		
 		addShapedOreRecipe(NCBlocks.solar_panel_basic, new Object[] {"GQG", "PLP", "CPC", 'G', "dustGraphite", 'Q', "dustQuartz", 'P', Blocks.HEAVY_WEIGHTED_PRESSURE_PLATE, 'L', "gemLapis", 'C', "solenoidCopper"});
 		addShapedOreRecipe(NCBlocks.solar_panel_basic, new Object[] {"GQG", "PLP", "CPC", 'G', "dustGraphite", 'Q', "dustNetherQuartz", 'P', Blocks.HEAVY_WEIGHTED_PRESSURE_PLATE, 'L', "gemLapis", 'C', "solenoidCopper"});
@@ -304,6 +310,8 @@ public class CraftingRecipeHandler {
 		fissionClumpRecipes("Curium", NCItems.curium, 243, 245, 246, 247);
 		fissionClumpRecipes("Berkelium", NCItems.berkelium, 247, 248);
 		fissionClumpRecipes("Californium", NCItems.californium, 249, 250, 251, 252);
+		fissionClumpRecipes("Einsteinium", NCItems.einsteinium, 253, 254, 255);
+		fissionClumpRecipes("Fermium", NCItems.einsteinium, 254, 255, 257);
 		
 		fissionFuelRecipes("Uranium", "U", NCItems.fuel_uranium, 238, 233, 235);
 		fissionFuelRecipes("Neptunium", "N", NCItems.fuel_neptunium, 237, 236);
@@ -312,6 +320,8 @@ public class CraftingRecipeHandler {
 		fissionFuelRecipes("Curium", "Cm", NCItems.fuel_curium, 246, 243, 245, 247);
 		fissionFuelRecipes("Berkelium", "B", NCItems.fuel_berkelium, 247, 248);
 		fissionFuelRecipes("Californium", "Cf", NCItems.fuel_californium, 252, 249, 251);
+		fissionFuelRecipes("Einsteinium", "Es", NCItems.fuel_einsteinium, 253, 254);
+		fissionFuelRecipes("Fermium", "Fm", NCItems.fuel_fermium, 257, 255);
 		
 		tinyClumpRecipes("Boron", NCItems.boron, 10, 11);
 		tinyClumpRecipes("Lithium", NCItems.lithium, 6, 7);
