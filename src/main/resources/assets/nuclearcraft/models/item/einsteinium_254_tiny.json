@@ -1,0 +1,6 @@
+{
+	"parent": "nuclearcraft:item/item_small",
+	"textures": {
+		"layer0": "nuclearcraft:items/einsteinium_254"
+	}
+}
