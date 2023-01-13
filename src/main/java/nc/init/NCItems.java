@@ -58,6 +58,8 @@ public class NCItems {
 	public static Item curium;
 	public static Item berkelium;
 	public static Item californium;
+	public static Item einsteinium;
+	public static Item fermium;
 	
 	public static Item fuel_thorium;
 	public static Item fuel_uranium;
@@ -68,6 +70,8 @@ public class NCItems {
 	public static Item fuel_curium;
 	public static Item fuel_berkelium;
 	public static Item fuel_californium;
+	public static Item fuel_einsteinium;
+	public static Item fuel_fermium;
 	
 	public static Item depleted_fuel_thorium;
 	public static Item depleted_fuel_uranium;
@@ -78,6 +82,8 @@ public class NCItems {
 	public static Item depleted_fuel_curium;
 	public static Item depleted_fuel_berkelium;
 	public static Item depleted_fuel_californium;
+	public static Item depleted_fuel_einsteinium;
+	public static Item depleted_fuel_fermium;
 	
 	public static Item depleted_fuel_ic2;
 	
@@ -146,6 +152,8 @@ public class NCItems {
 		curium = withName(new NCItemMeta(MetaEnums.CuriumType.class), "curium");
 		berkelium = withName(new NCItemMeta(MetaEnums.BerkeliumType.class), "berkelium");
 		californium = withName(new NCItemMeta(MetaEnums.CaliforniumType.class), "californium");
+		einsteinium = withName(new NCItemMeta(MetaEnums.EinsteiniumType.class), "einsteinium");
+		fermium = withName(new NCItemMeta(MetaEnums.FermiumType.class), "fermium");
 		
 		fuel_thorium = withName(new ItemFissionFuel(MetaEnums.ThoriumFuelType.class), "fuel_thorium");
 		fuel_uranium = withName(new ItemFissionFuel(MetaEnums.UraniumFuelType.class), "fuel_uranium");
@@ -156,6 +164,8 @@ public class NCItems {
 		fuel_curium = withName(new ItemFissionFuel(MetaEnums.CuriumFuelType.class), "fuel_curium");
 		fuel_berkelium = withName(new ItemFissionFuel(MetaEnums.BerkeliumFuelType.class), "fuel_berkelium");
 		fuel_californium = withName(new ItemFissionFuel(MetaEnums.CaliforniumFuelType.class), "fuel_californium");
+		fuel_einsteinium = withName(new ItemFissionFuel(MetaEnums.EinsteiniumFuelType.class), "fuel_einsteinium");
+		fuel_fermium = withName(new ItemFissionFuel(MetaEnums.FermiumFuelType.class), "fuel_fermium");
 		
 		depleted_fuel_thorium = withName(new ItemDepletedFissionFuel(MetaEnums.ThoriumDepletedFuelType.class), "depleted_fuel_thorium");
 		depleted_fuel_uranium = withName(new ItemDepletedFissionFuel(MetaEnums.UraniumDepletedFuelType.class), "depleted_fuel_uranium");
@@ -166,6 +176,8 @@ public class NCItems {
 		depleted_fuel_curium = withName(new ItemDepletedFissionFuel(MetaEnums.CuriumDepletedFuelType.class), "depleted_fuel_curium");
 		depleted_fuel_berkelium = withName(new ItemDepletedFissionFuel(MetaEnums.BerkeliumDepletedFuelType.class), "depleted_fuel_berkelium");
 		depleted_fuel_californium = withName(new ItemDepletedFissionFuel(MetaEnums.CaliforniumDepletedFuelType.class), "depleted_fuel_californium");
+		depleted_fuel_einsteinium = withName(new ItemDepletedFissionFuel(MetaEnums.EinsteiniumDepletedFuelType.class), "depleted_fuel_einsteinium");
+		depleted_fuel_fermium = withName(new ItemDepletedFissionFuel(MetaEnums.fermiumDepletedFuelType.class), "depleted_fuel_fermium");
 		
 		depleted_fuel_ic2 = withName(new ItemDepletedFissionFuel(MetaEnums.IC2DepletedFuelType.class), "depleted_fuel_ic2");
 		
@@ -234,6 +246,8 @@ public class NCItems {
 		registerItem(curium, NCTabs.FISSION_MATERIALS);
 		registerItem(berkelium, NCTabs.FISSION_MATERIALS);
 		registerItem(californium, NCTabs.FISSION_MATERIALS);
+		registerItem(einsteinium, NCTabs.FISSION_MATERIALS);
+		registerItem(fermium, NCTabs.FISSION_MATERIALS);
 		
 		registerItem(fuel_thorium, NCTabs.FISSION_FUELS);
 		registerItem(fuel_uranium, NCTabs.FISSION_FUELS);
@@ -244,6 +258,8 @@ public class NCItems {
 		registerItem(fuel_curium, NCTabs.FISSION_FUELS);
 		registerItem(fuel_berkelium, NCTabs.FISSION_FUELS);
 		registerItem(fuel_californium, NCTabs.FISSION_FUELS);
+		registerItem(fuel_einsteinium, NCTabs.FISSION_FUELS);
+		registerItem(fuel_fermium, NCTabs.FISSION_FUELS);
 		
 		registerItem(depleted_fuel_thorium, NCTabs.FISSION_MATERIALS);
 		registerItem(depleted_fuel_uranium, NCTabs.FISSION_MATERIALS);
@@ -254,6 +270,8 @@ public class NCItems {
 		registerItem(depleted_fuel_curium, NCTabs.FISSION_MATERIALS);
 		registerItem(depleted_fuel_berkelium, NCTabs.FISSION_MATERIALS);
 		registerItem(depleted_fuel_californium, NCTabs.FISSION_MATERIALS);
+		registerItem(depleted_fuel_einsteinium, NCTabs.FISSION_MATERIALS);
+		registerItem(depleted_fuel_fermium, NCTabs.FISSION_MATERIALS);
 		
 		registerItem(depleted_fuel_ic2, NCTabs.FISSION_MATERIALS);
 		
@@ -374,6 +392,14 @@ public class NCItems {
 			registerRender(californium, i, "californium" + MetaEnums.CaliforniumType.values()[i].getName());
 		}
 		
+		for(int i = 0; i < MetaEnums.EinsteiniumType.values().length; i++) {
+			registerRender(einsteinium, i, "einsteinium" + MetaEnums.EinsteiniumType.values()[i].getName());
+		}
+		
+		for(int i = 0; i < MetaEnums.FermiumType.values().length; i++) {
+			registerRender(fermium, i, "fermium" + MetaEnums.FermiumType.values()[i].getName());
+		}
+		
 		for(int i = 0; i < MetaEnums.ThoriumFuelType.values().length; i++) {
 			registerRender(fuel_thorium, i, "fuel_thorium_" + MetaEnums.ThoriumFuelType.values()[i].getName());
 		}
@@ -410,6 +436,14 @@ public class NCItems {
 			registerRender(fuel_californium, i, "fuel_californium_" + MetaEnums.CaliforniumFuelType.values()[i].getName());
 		}
 		
+		for(int i = 0; i < MetaEnums.EinsteiniumFuelType.values().length; i++) {
+			registerRender(fuel_einsteinium, i, "fuel_einsteinium_" + MetaEnums.EinsteiniumFuelType.values()[i].getName());
+		}
+		
+		for(int i = 0; i < MetaEnums.FermiumFuelType.values().length; i++) {
+			registerRender(fuel_fermium, i, "fuel_fermium_" + MetaEnums.FermiumFuelType.values()[i].getName());
+		}
+		
 		for(int i = 0; i < MetaEnums.ThoriumDepletedFuelType.values().length; i++) {
 			registerRender(depleted_fuel_thorium, i, "depleted_fuel_thorium_" + MetaEnums.ThoriumDepletedFuelType.values()[i].getName());
 		}
@@ -444,6 +478,14 @@ public class NCItems {
 		
 		for(int i = 0; i < MetaEnums.CaliforniumDepletedFuelType.values().length; i++) {
 			registerRender(depleted_fuel_californium, i, "depleted_fuel_californium_" + MetaEnums.CaliforniumDepletedFuelType.values()[i].getName());
+		}
+		
+		for(int i = 0; i < MetaEnums.EinsteiniumDepletedFuelType.values().length; i++) {
+			registerRender(depleted_fuel_einsteinium, i, "depleted_fuel_einsteinium_" + MetaEnums.EinsteiniumDepletedFuelType.values()[i].getName());
+		}
+		
+		for(int i = 0; i < MetaEnums.FermiumDepletedFuelType.values().length; i++) {
+			registerRender(depleted_fuel_fermium, i, "depleted_fuel_fermium_" + MetaEnums.FermiumDepletedFuelType.values()[i].getName());
 		}
 		
 		for(int i = 0; i < MetaEnums.IC2DepletedFuelType.values().length; i++) {
