@@ -47,7 +47,7 @@ public class OreDictHandler {
 		OreDictionary.registerOre("blockBerkelium247", NCBlocks.block_depleted_berkelium);
 		OreDictionary.registerOre("blockCalifornium252", NCBlocks.block_depleted_californium);
 		OreDictionary.registerOre("blockEinsteinium253", NCBlocks.block_depleted_einsteinium);
-		OreDictionary.registerOre("blockFermium255", NCBlocks.block_depleted_fermium);
+		OreDictionary.registerOre("blockFermium257", NCBlocks.block_depleted_fermium);
 		
 		if (OreGenerator.showOre(0)) OreDictionary.registerOre("ingotCopper", new ItemStack(NCItems.ingot, 1, 0));
 		if (OreGenerator.showOre(1)) OreDictionary.registerOre("ingotTin", new ItemStack(NCItems.ingot, 1, 1));
@@ -319,12 +319,12 @@ public class OreDictHandler {
 		OreDictionary.registerOre("ingotFermium254Base", new ItemStack(NCItems.fermium, 1, 0));
 		OreDictionary.registerOre("ingotFermium254", new ItemStack(NCItems.fermium, 1, 0));
 		OreDictionary.registerOre("ingotFermium254Oxide", new ItemStack(NCItems.fermium, 1, 1));
+		OreDictionary.registerOre("ingotFermium254", new ItemStack(NCItems.fermium, 1, 1));
 		OreDictionary.registerOre("nuggetFermium254", new ItemStack(NCItems.fermium, 1, 2));
 		OreDictionary.registerOre("nuggetFermium254Oxide", new ItemStack(NCItems.fermium, 1, 3));
 		OreDictionary.registerOre("ingotFermium255Base", new ItemStack(NCItems.fermium, 1, 4));
 		OreDictionary.registerOre("ingotFermium255", new ItemStack(NCItems.fermium, 1, 4));
 		OreDictionary.registerOre("ingotFermium255Oxide", new ItemStack(NCItems.fermium, 1, 5));
-		OreDictionary.registerOre("ingotFermium255", new ItemStack(NCItems.fermium, 1, 5));
 		OreDictionary.registerOre("nuggetFermium255", new ItemStack(NCItems.fermium, 1, 6));
 		OreDictionary.registerOre("nuggetFermium255Oxide", new ItemStack(NCItems.fermium, 1, 7));
 		OreDictionary.registerOre("ingotFermium257Base", new ItemStack(NCItems.fermium, 1, 8));
@@ -400,10 +400,10 @@ public class OreDictHandler {
 		OreDictionary.registerOre("fuelHEEs254", new ItemStack(NCItems.fuel_einsteinium, 1, 2));
 		OreDictionary.registerOre("fuelHEEs254Oxide", new ItemStack(NCItems.fuel_einsteinium, 1, 3));
 		
-		OreDictionary.registerOre("fuelLEFm254", new ItemStack(NCItems.fuel_fermium, 1, 0));
-		OreDictionary.registerOre("fuelLEFm254Oxide", new ItemStack(NCItems.fuel_fermium, 1, 1));
-		OreDictionary.registerOre("fuelHEFm254", new ItemStack(NCItems.fuel_fermium, 1, 2));
-		OreDictionary.registerOre("fuelHEFm254Oxide", new ItemStack(NCItems.fuel_fermium, 1, 3));
+		OreDictionary.registerOre("fuelLEFm255", new ItemStack(NCItems.fuel_fermium, 1, 0));
+		OreDictionary.registerOre("fuelLEFm255Oxide", new ItemStack(NCItems.fuel_fermium, 1, 1));
+		OreDictionary.registerOre("fuelHEFm255", new ItemStack(NCItems.fuel_fermium, 1, 2));
+		OreDictionary.registerOre("fuelHEFm255Oxide", new ItemStack(NCItems.fuel_fermium, 1, 3));
 		
 		OreDictionary.registerOre("depletedFuelTBU", new ItemStack(NCItems.depleted_fuel_thorium, 1, 0));
 		OreDictionary.registerOre("depletedFuelTBUOxide", new ItemStack(NCItems.depleted_fuel_thorium, 1, 1));
@@ -471,10 +471,10 @@ public class OreDictHandler {
 		OreDictionary.registerOre("depletedFuelHEEs254", new ItemStack(NCItems.depleted_fuel_einsteinium, 1, 2));
 		OreDictionary.registerOre("depletedFuelHEEs254Oxide", new ItemStack(NCItems.depleted_fuel_einsteinium, 1, 3));
 		
-		OreDictionary.registerOre("depletedFuelLEFm254", new ItemStack(NCItems.depleted_fuel_fermium, 1, 0));
-		OreDictionary.registerOre("depletedFuelLEFm254Oxide", new ItemStack(NCItems.depleted_fuel_fermium, 1, 1));
-		OreDictionary.registerOre("depletedFuelHEFm254", new ItemStack(NCItems.depleted_fuel_fermium, 1, 2));
-		OreDictionary.registerOre("depletedFuelHEFm254Oxide", new ItemStack(NCItems.depleted_fuel_fermium, 1, 3));
+		OreDictionary.registerOre("depletedFuelLEFm255", new ItemStack(NCItems.depleted_fuel_fermium, 1, 0));
+		OreDictionary.registerOre("depletedFuelLEFm255Oxide", new ItemStack(NCItems.depleted_fuel_fermium, 1, 1));
+		OreDictionary.registerOre("depletedFuelHEFm255", new ItemStack(NCItems.depleted_fuel_fermium, 1, 2));
+		OreDictionary.registerOre("depletedFuelHEFm255Oxide", new ItemStack(NCItems.depleted_fuel_fermium, 1, 3));
 		
 		OreDictionary.registerOre("depletedFuelIC2U", new ItemStack(NCItems.depleted_fuel_ic2, 1, 0));
 		OreDictionary.registerOre("depletedFuelIC2MOX", new ItemStack(NCItems.depleted_fuel_ic2, 1, 1));
