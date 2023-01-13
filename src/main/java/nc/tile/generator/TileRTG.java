@@ -33,6 +33,20 @@ public class TileRTG extends TilePassiveGenerator {
 		}
 	}
 	
+	public static class Einsteinium extends TileRTG {
+
+		public Einsteinium() {
+			super(NCConfig.rtg_power[4], RadSources.EINSTEINIUM_255/8D);
+		}
+	}
+	
+	public static class Fermium extends TileRTG {
+
+		public Fermium() {
+			super(NCConfig.rtg_power[5], RadSources.FERMIUM_254/8D);
+		}
+	}
+	
 	public TileRTG(int power, double radiation) {
 		super(power);
 		getRadiationSource().setRadiationLevel(radiation);
