@@ -57,8 +57,14 @@ public class FuelReprocessorRecipes extends ProcessorRecipeHandler {
 		/* 1/8x */	addReprocessingRecipes("LECf249", "Californium250", 16, "Californium251", 8, "Californium252", 20, "Californium252", 20);
 		/* 1/32x */	addReprocessingRecipes("HECf249", "Californium250", 32, "Californium251", 16, "Californium252", 8, "Californium252", 8);
 		
-		/* 1/8x */	addReprocessingRecipes("LECf251", "Californium251", 4, "Californium252", 20, "Californium252", 20, "Californium252", 20);
-		/* 1/32x */	addReprocessingRecipes("HECf251", "Californium251", 16, "Californium252", 16, "Californium252", 16, "Californium252", 16);
+		/* 1/8x */	addReprocessingRecipes("LECf251", "Californium251", 8, "Californium252", 40, "Einsteinium253", 12, "Einsteinium254", 4);
+		/* 1/32x */	addReprocessingRecipes("HECf251", "Californium251", 16, "Californium252", 16, "Einsteinium253", 20, "Einsteinium254", 12);
+		
+				addReprocessingRecipes("LEEs254", "Einsteinium254", 32, "Einsteinium255", 8, "Fermium255", 12, "Fermium257", 20);
+				addReprocessingRecipes("HEEs254", "Einsteinium254", 4, "Einsteinium255", 16, "Fermium255", 16, "Fermium257", 28);
+		
+				addReprocessingRecipes("LEFm255", "Fermium254", 8, "Fermium255", 20, "Fermium255", 20, "Fermium257", 16);
+				addReprocessingRecipes("HEFm255", "Fermium254", 16, "Fermium255", 16, "Fermium255", 16, "Fermium257", 16);
 		
 		// IC2
 		addRecipe("depletedFuelIC2U", RegistryHelper.itemStackFromRegistry("ic2:nuclear:2", 2), RegistryHelper.itemStackFromRegistry("ic2:nuclear:2", 1), RegistryHelper.itemStackFromRegistry("ic2:nuclear:2", 1), RegistryHelper.itemStackFromRegistry("ic2:nuclear:7", 1), 1D, 1D);
