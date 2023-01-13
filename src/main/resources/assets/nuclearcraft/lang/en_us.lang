@@ -105,6 +105,8 @@ tile.nuclearcraft.block_depleted_americium.name=Americium-243 Block
 tile.nuclearcraft.block_depleted_curium.name=Curium-246 Block
 tile.nuclearcraft.block_depleted_berkelium.name=Berkelium-247 Block
 tile.nuclearcraft.block_depleted_californium.name=Californium-252 Block
+tile.nuclearcraft.block_depleted_einsteinium.name=Einsteinium-253 Block
+tile.nuclearcraft.block_depleted_fermium.name=Fermium-257 Block
 
 tile.nuclearcraft.block_ice.name=Supercold Ice
 
@@ -219,6 +221,8 @@ tile.nuclearcraft.rtg_uranium.name=Uranium RTG
 tile.nuclearcraft.rtg_plutonium.name=Plutonium RTG
 tile.nuclearcraft.rtg_americium.name=Americium RTG
 tile.nuclearcraft.rtg_californium.name=Californium RTG
+tile.nuclearcraft.rtg_einsteinium.name=Einsteinium RTG
+tile.nuclearcraft.rtg_fermium.name=Fermium RTG
 tile.nuclearcraft.rtg.desc=Produces %s constantly.
 
 tile.nuclearcraft.solar_panel_basic.name=Basic Solar Panel
@@ -819,6 +823,44 @@ fluid.californium_252_fluoride=Molten Californium-252 Fluoride
 tile.nuclearcraft.fluid_californium_252_fluoride_flibe.name=Molten FLiBe Salt Solution of Californium-252 Fluoride
 fluid.californium_252_fluoride_flibe=Molten FLiBe Salt Solution of Californium-252 Fluoride
 
+tile.nuclearcraft.fluid_einsteinium_253.name=Molten Einsteinium-253
+fluid.einsteinium_253=Molten Einsteinium-253
+tile.nuclearcraft.fluid_einsteinium_253_fluoride.name=Molten Einsteinium-253 Fluoride
+fluid.einsteinium_253_fluoride=Molten Einsteinium-253 Fluoride
+tile.nuclearcraft.fluid_einsteinium_253_fluoride_flibe.name=Molten FLiBe Salt Solution of Einsteinium-253 Fluoride
+fluid.einsteinium_253_fluoride_flibe=Molten FLiBe Salt Solution of Einsteinium-253 Fluoride
+tile.nuclearcraft.fluid_einsteinium_254.name=Molten Einsteinium-254
+fluid.einsteinium_254=Molten Einsteinium-254
+tile.nuclearcraft.fluid_einsteinium_254_fluoride.name=Molten Einsteinium-254 Fluoride
+fluid.einsteinium_254_fluoride=Molten Einsteinium-254 Fluoride
+tile.nuclearcraft.fluid_einsteinium_254_fluoride_flibe.name=Molten FLiBe Salt Solution of Einsteinium-254 Fluoride
+fluid.einsteinium_254_fluoride_flibe=Molten FLiBe Salt Solution of Einsteinium-254 Fluoride
+tile.nuclearcraft.fluid_einsteinium_255.name=Molten Einsteinium-255
+fluid.einsteinium_255=Molten Einsteinium-255
+tile.nuclearcraft.fluid_einsteinium_255_fluoride.name=Molten Einsteinium-255 Fluoride
+fluid.einsteinium_255_fluoride=Molten Einsteinium-255 Fluoride
+tile.nuclearcraft.fluid_einsteinium_255_fluoride_flibe.name=Molten FLiBe Salt Solution of Einsteinium-255 Fluoride
+fluid.einsteinium_255_fluoride_flibe=Molten FLiBe Salt Solution of Einsteinium-255 Fluoride
+
+tile.nuclearcraft.fluid_fermium_254.name=Molten Fermium-254
+fluid.fermium_254=Molten Fermium-254
+tile.nuclearcraft.fluid_fermium_254_fluoride.name=Molten Fermium-254 Fluoride
+fluid.fermium_254_fluoride=Molten Fermium-254 Fluoride
+tile.nuclearcraft.fluid_fermium_254_fluoride_flibe.name=Molten FLiBe Salt Solution of Fermium-254 Fluoride
+fluid.fermium_254_fluoride_flibe=Molten FLiBe Salt Solution of Fermium-254 Fluoride
+tile.nuclearcraft.fluid_fermium_254.name=Molten Fermium-254
+fluid.fermium_255=Molten Fermium-255
+tile.nuclearcraft.fluid_fermium_255_fluoride.name=Molten Fermium-255 Fluoride
+fluid.fermium_255_fluoride=Molten Fermium-255 Fluoride
+tile.nuclearcraft.fluid_fermium_255_fluoride_flibe.name=Molten FLiBe Salt Solution of Fermium-255 Fluoride
+fluid.fermium_255_fluoride_flibe=Molten FLiBe Salt Solution of Fermium-255 Fluoride
+tile.nuclearcraft.fluid_fermium_257.name=Molten Fermium-257
+fluid.fermium_257=Molten Fermium-257
+tile.nuclearcraft.fluid_fermium_257_fluoride.name=Molten Fermium-257 Fluoride
+fluid.fermium_257_fluoride=Molten Fermium-257 Fluoride
+tile.nuclearcraft.fluid_fermium_257_fluoride_flibe.name=Molten FLiBe Salt Solution of Fermium-257 Fluoride
+fluid.fermium_257_fluoride_flibe=Molten FLiBe Salt Solution of Fermium-257 Fluoride
+
 tile.nuclearcraft.fluid_fuel_tbu.name=Molten TBU Fuel
 fluid.fuel_tbu=Molten TBU Fuel
 tile.nuclearcraft.fluid_fuel_tbu_fluoride.name=Molten TBU Fluoride Fuel
@@ -977,6 +1019,32 @@ fluid.fuel_hecf_251_fluoride=Molten HECf-251 Fluoride Fuel
 tile.nuclearcraft.fluid_fuel_hecf_251_fluoride_flibe.name=Molten FLiBe Salt Solution of HECf-251 Fluoride Fuel
 fluid.fuel_hecf_251_fluoride_flibe=Molten FLiBe Salt Solution of HECf-251 Fluoride Fuel
 
+tile.nuclearcraft.fluid_fuel_lees_254.name=Molten LEEs-254 Fuel
+fluid.fuel_lees_254=Molten LEEs-254 Fuel
+tile.nuclearcraft.fluid_fuel_lees_254_fluoride.name=Molten LEEs-254 Fluoride Fuel
+fluid.fuel_lees_254_fluoride=Molten LEEs-254 Fluoride Fuel
+tile.nuclearcraft.fluid_fuel_lees_254_fluoride_flibe.name=Molten FLiBe Salt Solution of LEEs-254 Fluoride Fuel
+fluid.fuel_lees_254_fluoride_flibe=Molten FLiBe Salt Solution of LEEs-254 Fluoride Fuel
+tile.nuclearcraft.fluid_fuel_hees_254.name=Molten HEEs-254 Fuel
+fluid.fuel_hees_254=Molten HEEs-254 Fuel
+tile.nuclearcraft.fluid_fuel_hees_254_fluoride.name=Molten HEEs-254 Fluoride Fuel
+fluid.fuel_hees_254_fluoride=Molten HEEs-254 Fluoride Fuel
+tile.nuclearcraft.fluid_fuel_hees_254_fluoride_flibe.name=Molten FLiBe Salt Solution of HEEs-254 Fluoride Fuel
+fluid.fuel_hees_254_fluoride_flibe=Molten FLiBe Salt Solution of HEEs-254 Fluoride Fuel
+
+tile.nuclearcraft.fluid_fuel_lefm_255.name=Molten LEFm-255 Fuel
+fluid.fuel_lefm_255=Molten LEFm-255 Fuel
+tile.nuclearcraft.fluid_fuel_lefm_255_fluoride.name=Molten LEFm-255 Fluoride Fuel
+fluid.fuel_lefm_255_fluoride=Molten LEFm-255 Fluoride Fuel
+tile.nuclearcraft.fluid_fuel_lefm_255_fluoride_flibe.name=Molten FLiBe Salt Solution of LEFm-255 Fluoride Fuel
+fluid.fuel_lefm_255_fluoride_flibe=Molten FLiBe Salt Solution of LEFm-255 Fluoride Fuel
+tile.nuclearcraft.fluid_fuel_hefm_255.name=Molten HEFm-255 Fuel
+fluid.fuel_hefm_255=Molten HEFm-255 Fuel
+tile.nuclearcraft.fluid_fuel_hefm_255_fluoride.name=Molten HEFm-255 Fluoride Fuel
+fluid.fuel_hefm_255_fluoride=Molten HEFm-255 Fluoride Fuel
+tile.nuclearcraft.fluid_fuel_hefm_255_fluoride_flibe.name=Molten FLiBe Salt Solution of HEFm-255 Fluoride Fuel
+fluid.fuel_hefm_255_fluoride_flibe=Molten FLiBe Salt Solution of HEFm-255 Fluoride Fuel
+
 tile.nuclearcraft.fluid_depleted_fuel_tbu.name=Molten Depleted TBU Fuel
 fluid.depleted_fuel_tbu=Molten Depleted TBU Fuel
 tile.nuclearcraft.fluid_depleted_fuel_tbu_fluoride.name=Molten Depleted TBU Fluoride Fuel
@@ -1133,7 +1201,33 @@ fluid.depleted_fuel_hecf_251=Molten Depleted HECf-251 Fuel
 tile.nuclearcraft.fluid_depleted_fuel_hecf_251_fluoride.name=Molten Depleted HECf-251 Fluoride Fuel
 fluid.depleted_fuel_hecf_251_fluoride=Molten Depleted HECf-251 Fluoride Fuel
 tile.nuclearcraft.fluid_depleted_fuel_hecf_251_fluoride_flibe.name=Molten FLiBe Salt Solution of Depleted HECf-251 Fluoride Fuel
-fluid.depleted_fuel_hecf_251_fluoride_flibe=Molten FLiBe Salt Solution of Depleted HECf-251 Fluoride Fuel
+fluid.depleted_fuel_hecf_251_fluoride_flibe=Molten FLiBe Salt Solution of Depleted HECf-251 Fluoride 
+
+tile.nuclearcraft.fluid_depleted_fuel_lees_254.name=Molten Depleted LEEs-254 Fuel
+fluid.depleted_fuel_lees_254=Molten Depleted LEEs-254 Fuel
+tile.nuclearcraft.fluid_depleted_fuel_lees_254_fluoride.name=Molten Depleted LEEs-254 Fluoride Fuel
+fluid.depleted_fuel_lees_254_fluoride=Molten Depleted LEEs-254 Fluoride Fuel
+tile.nuclearcraft.fluid_depleted_fuel_lees_254_fluoride_flibe.name=Molten FLiBe Salt Solution of Depleted LEEs-254 Fluoride Fuel
+fluid.depleted_fuel_lees_254_fluoride_flibe=Molten FLiBe Salt Solution of Depleted LEEs-254 Fluoride Fuel
+tile.nuclearcraft.fluid_depleted_fuel_hees_254.name=Molten Depleted HEEs-254 Fuel
+fluid.depleted_fuel_hees_254=Molten Depleted HEEs-254 Fuel
+tile.nuclearcraft.fluid_depleted_fuel_hees_254_fluoride.name=Molten Depleted HEEs-254 Fluoride Fuel
+fluid.depleted_fuel_hees_254_fluoride=Molten Depleted HEEs-254 Fluoride Fuel
+tile.nuclearcraft.fluid_depleted_fuel_hees_254_fluoride_flibe.name=Molten FLiBe Salt Solution of Depleted HEEs-254 Fluoride Fuel
+fluid.depleted_fuel_hees_254_fluoride_flibe=Molten FLiBe Salt Solution of Depleted HEEs-254 Fluoride Fuel
+
+tile.nuclearcraft.fluid_depleted_fuel_lefm_255.name=Molten Depleted LEFm-255 Fuel
+fluid.depleted_fuel_lefm_255=Molten Depleted LEFm-255 Fuel
+tile.nuclearcraft.fluid_depleted_fuel_lefm_255_fluoride.name=Molten Depleted LEFm-255 Fluoride Fuel
+fluid.depleted_fuel_lefm_255_fluoride=Molten Depleted LEFm-255 Fluoride Fuel
+tile.nuclearcraft.fluid_depleted_fuel_lefm_255_fluoride_flibe.name=Molten FLiBe Salt Solution of Depleted LEFm-255 Fluoride Fuel
+fluid.depleted_fuel_lefm_255_fluoride_flibe=Molten FLiBe Salt Solution of Depleted LEFm-255 Fluoride Fuel
+tile.nuclearcraft.fluid_depleted_fuel_hefm_255.name=Molten Depleted HEFm-255 Fuel
+fluid.depleted_fuel_hefm_255=Molten Depleted HEFm-255 Fuel
+tile.nuclearcraft.fluid_depleted_fuel_hefm_255_fluoride.name=Molten Depleted HEFm-255 Fluoride Fuel
+fluid.depleted_fuel_hefm_255_fluoride=Molten Depleted HEFm-255 Fluoride Fuel
+tile.nuclearcraft.fluid_depleted_fuel_hefm_255_fluoride_flibe.name=Molten FLiBe Salt Solution of Depleted HEFm-255 Fluoride Fuel
+fluid.depleted_fuel_hefm_255_fluoride_flibe=Molten FLiBe Salt Solution of Depleted HEFm-255 Fluoride Fuel
 
 tile.nuclearcraft.fluid_redstone.name=Molten Redstone
 fluid.redstone=Molten Redstone
@@ -1468,6 +1562,34 @@ item.nuclearcraft.californium._252_tiny.name=Tiny Clump of Californium-252
 item.nuclearcraft.californium._252_oxide_tiny.name=Tiny Clump of Californium-252 Oxide
 item.nuclearcraft.californium.desc=An isotope of Californium.
 
+item.nuclearcraft.einsteinium._253.name=Einsteinium-253
+item.nuclearcraft.einsteinium._253_oxide.name=Einsteinium-253 Oxide
+item.nuclearcraft.einsteinium._253_tiny.name=Tiny Clump of Einsteinium-253
+item.nuclearcraft.einsteinium._253_oxide_tiny.name=Tiny Clump of Einsteinium-253 Oxide
+item.nuclearcraft.einsteinium._254.name=Einsteinium-254
+item.nuclearcraft.einsteinium._254_oxide.name=Einsteinium-254 Oxide
+item.nuclearcraft.einsteinium._254_tiny.name=Tiny Clump of Einsteinium-254
+item.nuclearcraft.einsteinium._254_oxide_tiny.name=Tiny Clump of Einsteinium-254 Oxide
+item.nuclearcraft.einsteinium._255.name=Einsteinium-255
+item.nuclearcraft.einsteinium._255_oxide.name=Einsteinium-255 Oxide
+item.nuclearcraft.einsteinium._255_tiny.name=Tiny Clump of Einsteinium-255
+item.nuclearcraft.einsteinium._255_oxide_tiny.name=Tiny Clump of Einsteinium-255 Oxide
+item.nuclearcraft.einsteinium.desc=An isotope of Einsteinium.
+
+item.nuclearcraft.fermium._254.name=Fermium-254
+item.nuclearcraft.fermium._254_oxide.name=Fermium-254 Oxide
+item.nuclearcraft.fermium._254_tiny.name=Tiny Clump of Fermium-254
+item.nuclearcraft.fermium._254_oxide_tiny.name=Tiny Clump of Fermium-254 Oxide
+item.nuclearcraft.fermium._255.name=Fermium-255
+item.nuclearcraft.fermium._255_oxide.name=Fermium-255 Oxide
+item.nuclearcraft.fermium._255_tiny.name=Tiny Clump of Fermium-255
+item.nuclearcraft.fermium._255_oxide_tiny.name=Tiny Clump of Fermium-255 Oxide
+item.nuclearcraft.fermium._257.name=Fermium-257
+item.nuclearcraft.fermium._257_oxide.name=Fermium-257 Oxide
+item.nuclearcraft.fermium._257_tiny.name=Tiny Clump of Fermium-257
+item.nuclearcraft.fermium._257_oxide_tiny.name=Tiny Clump of Fermium-257 Oxide
+item.nuclearcraft.fermium.desc=An isotope of Fermium.
+
 item.nuclearcraft.fuel_thorium.tbu.name=TBU Fuel
 item.nuclearcraft.fuel_thorium.tbu_oxide.name=TBU Oxide Fuel
 
@@ -1528,6 +1650,16 @@ item.nuclearcraft.fuel_californium.lec_251.name=LECf-251 Fuel
 item.nuclearcraft.fuel_californium.lec_251_oxide.name=LECf-251 Oxide Fuel
 item.nuclearcraft.fuel_californium.hec_251.name=HECf-251 Fuel
 item.nuclearcraft.fuel_californium.hec_251_oxide.name=HECf-251 Oxide Fuel
+
+item.nuclearcraft.fuel_einsteinium.lee_254.name=LEEs-254 Fuel
+item.nuclearcraft.fuel_einsteinium.lee_254_oxide.name=LEEs-254 Oxide Fuel
+item.nuclearcraft.fuel_einsteinium.hee_254.name=HEEs-254 Fuel
+item.nuclearcraft.fuel_einsteinium.hee_254_oxide.name=HEEs-254 Oxide Fuel
+
+item.nuclearcraft.fuel_fermium.lef_255.name=LEFm-255 Fuel
+item.nuclearcraft.fuel_fermium.lef_255_oxide.name=LEFm-255 Oxide Fuel
+item.nuclearcraft.fuel_fermium.hef_255.name=HEFm-255 Fuel
+item.nuclearcraft.fuel_fermium.hef_255_oxide.name=HEFm-255 Oxide Fuel
 
 item.nuclearcraft.fission_fuel.base_time.desc=Base process time: %s min
 item.nuclearcraft.fission_fuel.base_power.desc=Base power: %s RF/t
@@ -1593,6 +1725,16 @@ item.nuclearcraft.depleted_fuel_californium.lec_251.name=Depleted LECf-251 Fuel
 item.nuclearcraft.depleted_fuel_californium.lec_251_oxide.name=Depleted LECf-251 Oxide Fuel
 item.nuclearcraft.depleted_fuel_californium.hec_251.name=Depleted HECf-251 Fuel
 item.nuclearcraft.depleted_fuel_californium.hec_251_oxide.name=Depleted HECf-251 Oxide Fuel
+
+item.nuclearcraft.depleted_fuel_einsteinium.lee-254.name=Depleted LEEs-254 Fuel
+item.nuclearcraft.depleted_fuel_einsteinium.lee-254_oxide.name=Depleted LEEs-254 Oxide Fuel
+item.nuclearcraft.depleted_fuel_einsteinium.hee-254.name=Depleted HEEs-254 Fuel
+item.nuclearcraft.depleted_fuel_einsteinium.hee-254_oxide.name=Depleted HEEs-254 Oxide Fuel
+
+item.nuclearcraft.depleted_fuel_fermium.lef-255.name=Depleted LEFm-255 Fuel
+item.nuclearcraft.depleted_fuel_fermium.lef-255_oxide.name=Depleted LEFm-255 Oxide Fuel
+item.nuclearcraft.depleted_fuel_fermium.hef-255.name=Depleted HEFm-255 Fuel
+item.nuclearcraft.depleted_fuel_fermium.hef-255_oxide.name=Depleted HEFm-255 Oxide Fuel
 
 item.nuclearcraft.depleted_fuel_ic2.u.name=Depleted Uranium Nuclear Fuel
 item.nuclearcraft.depleted_fuel_ic2.mox.name=Depleted MOX Nuclear Fuel
@@ -2015,6 +2157,24 @@ gui.config.fission.fission_californium_heat_generation=Californium Heat Gen
 gui.config.fission.fission_californium_heat_generation.comment=Base heat the fuels produce. Order: LECf-249, LECf-249 Oxide, HECf-249, HECf-249 Oxide, LECf-251, LECf-251 Oxide, HECf-251, HECf-251 Oxide.
 gui.config.fission.fission_californium_radiation=Californium Radiation
 gui.config.fission.fission_californium_radiation.comment=Base radiation the fuels produce while processing. Order: LECf-249, LECf-249 Oxide, HECf-249, HECf-249 Oxide, LECf-251, LECf-251 Oxide, HECf-251, HECf-251 Oxide.
+
+gui.config.fission.fission_einsteinium_fuel_time=Einsteinium Fuel Durations
+gui.config.fission.fission_einsteinium_fuel_time.comment=Base ticks the fuels last. Order: LEEs-254, LEEs-254 Oxide, HEEs-254, HEEs-254 Oxide.
+gui.config.fission.fission_einsteinium_power=Einsteinium Power Gen
+gui.config.fission.fission_einsteinium_power.comment=Base RF/t the fuels produce. Order: LEEs-254, LEEs-254 Oxide, HEEs-254, HEEs-254 Oxide.
+gui.config.fission.fission_einsteinium_heat_generation=Einsteinium Heat Gen
+gui.config.fission.fission_einsteinium_heat_generation.comment=Base heat the fuels produce. Order: LEEs-254, LEEs-254 Oxide, HEEs-254, HEEs-254 Oxide.
+gui.config.fission.fission_einsteinium_radiation=Einsteinium Radiation
+gui.config.fission.fission_einsteinium_radiation.comment=Base radiation the fuels produce while processing. Order: LEEs-254, LEEs-254 Oxide, HEEs-254, HEEs-254 Oxide.
+
+gui.config.fission.fission_fermium_fuel_time=Fermium Fuel Durations
+gui.config.fission.fission_fermium_fuel_time.comment=Base ticks the fuels last. Order: LEFm-255, LEfm-255 Oxide, HEFm-255, HEFm-255 Oxide.
+gui.config.fission.fission_fermium_power=Fermium Power Gen
+gui.config.fission.fission_fermium_power.comment=Base RF/t the fuels produce. Order: LEFm-255, LEfm-255 Oxide, HEFm-255, HEFm-255 Oxide.
+gui.config.fission.fission_fermium_heat_generation=Fermium Heat Gen
+gui.config.fission.fission_fermium_heat_generation.comment=Base heat the fuels produce. Order: LEFm-255, LEfm-255 Oxide, HEFm-255, HEFm-255 Oxide.
+gui.config.fission.fission_fermium_radiation=Fermium Radiation
+gui.config.fission.fission_fermium_radiation.comment=Base radiation the fuels produce while processing. Order: LEFm-255, LEfm-255 Oxide, HEFm-255, HEFm-255 Oxide.
 
 gui.config.category.fusion=Fusion Configs
 gui.config.category.fusion.tooltip=Configure aspects of nuclear fusion.
@@ -2558,6 +2718,10 @@ gui.container.fission_controller.leb=LEB
 gui.container.fission_controller.heb=HEB
 gui.container.fission_controller.lecf=LECf
 gui.container.fission_controller.hecf=HECf
+gui.container.fission_controller.lees=LEEs
+gui.container.fission_controller.hees=HEEs
+gui.container.fission_controller.lefm=LEFm
+gui.container.fission_controller.hefm=HEFm
 gui.container.fission_controller.oxide=Ox
 
 gui.container.fusion_core.reactor=Fusion Reactor
