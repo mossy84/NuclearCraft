@@ -108,6 +108,8 @@ public class NCBlocks {
 	public static Block block_depleted_curium;
 	public static Block block_depleted_berkelium;
 	public static Block block_depleted_californium;
+	public static Block block_depleted_einsteinium;
+	public static Block block_depleted_fermium;
 	
 	public static Block block_ice;
 	
@@ -170,6 +172,8 @@ public class NCBlocks {
 	public static Block rtg_plutonium;
 	public static Block rtg_americium;
 	public static Block rtg_californium;
+	public static Block rtg_einsteinium;
+	public static Block rtg_fermium;
 	
 	public static Block solar_panel_basic;
 	public static Block solar_panel_advanced;
@@ -296,6 +300,8 @@ public class NCBlocks {
 		block_depleted_curium = withName(new NCBlock(Material.IRON).setCreativeTab(NCTabs.BASE_BLOCK_MATERIALS), "block_depleted_curium");
 		block_depleted_berkelium = withName(new NCBlock(Material.IRON).setCreativeTab(NCTabs.BASE_BLOCK_MATERIALS), "block_depleted_berkelium");
 		block_depleted_californium = withName(new NCBlock(Material.IRON).setCreativeTab(NCTabs.BASE_BLOCK_MATERIALS), "block_depleted_californium");
+		block_depleted_einsteinium = withName(new NCBlock(Material.IRON).setCreativeTab(NCTabs.BASE_BLOCK_MATERIALS), "block_depleted_einsteinium");
+		block_depleted_fermium = withName(new NCBlock(Material.IRON).setCreativeTab(NCTabs.BASE_BLOCK_MATERIALS), "block_depleted_fermium");
 		
 		block_ice = withName(new NCBlockIce(), "block_ice");
 		
@@ -358,6 +364,8 @@ public class NCBlocks {
 		rtg_plutonium = withName(new BlockSimpleTile(SimpleTileType.RTG_PLUTONIUM));
 		rtg_americium = withName(new BlockSimpleTile(SimpleTileType.RTG_AMERICIUM));
 		rtg_californium = withName(new BlockSimpleTile(SimpleTileType.RTG_CALIFORNIUM));
+		rtg_einsteinium = withName(new BlockSimpleTile(SimpleTileType.RTG_EINSTEINIUM));
+		rtg_fermium = withName(new BlockSimpleTile(SimpleTileType.RTG_FERMIUM));
 		
 		solar_panel_basic = withName(new BlockSimpleTile(SimpleTileType.SOLAR_PANEL_BASIC));
 		solar_panel_advanced = withName(new BlockSimpleTile(SimpleTileType.SOLAR_PANEL_ADVANCED));
@@ -487,6 +495,8 @@ public class NCBlocks {
 		registerBlock(block_depleted_curium);
 		registerBlock(block_depleted_berkelium);
 		registerBlock(block_depleted_californium);
+		registerBlock(block_depleted_einsteinium);
+		registerBlock(block_depleted_fermium);
 		
 		registerBlock(block_ice);
 		
@@ -549,6 +559,8 @@ public class NCBlocks {
 		registerBlock(rtg_plutonium, InfoHelper.formattedInfo(infoLine("rtg"), UnitHelper.prefix(NCConfig.rtg_power[1], 5, "RF/t")));
 		registerBlock(rtg_americium, InfoHelper.formattedInfo(infoLine("rtg"), UnitHelper.prefix(NCConfig.rtg_power[2], 5, "RF/t")));
 		registerBlock(rtg_californium, InfoHelper.formattedInfo(infoLine("rtg"), UnitHelper.prefix(NCConfig.rtg_power[3], 5, "RF/t")));
+		registerBlock(rtg_einsteinium, InfoHelper.formattedInfo(infoLine("rtg"), UnitHelper.prefix(NCConfig.rtg_power[4], 5, "RF/t")));
+		registerBlock(rtg_fermium, InfoHelper.formattedInfo(infoLine("rtg"), UnitHelper.prefix(NCConfig.rtg_power[5], 5, "RF/t")));
 		
 		registerBlock(solar_panel_basic, InfoHelper.formattedInfo(infoLine("solar_panel"), UnitHelper.prefix(NCConfig.solar_power[0], 5, "RF/t")));
 		registerBlock(solar_panel_advanced, InfoHelper.formattedInfo(infoLine("solar_panel"), UnitHelper.prefix(NCConfig.solar_power[1], 5, "RF/t")));
@@ -690,6 +702,8 @@ public class NCBlocks {
 		registerRender(block_depleted_curium);
 		registerRender(block_depleted_berkelium);
 		registerRender(block_depleted_californium);
+		registerRender(block_depleted_einsteinium);
+		registerRender(block_depleted_fermium);
 		
 		registerRender(block_ice);
 		
@@ -752,6 +766,8 @@ public class NCBlocks {
 		registerRender(rtg_plutonium);
 		registerRender(rtg_americium);
 		registerRender(rtg_californium);
+		registerRender(rtg_einsteinium);
+		registerRender(rtg_fermium);
 		
 		registerRender(solar_panel_basic);
 		registerRender(solar_panel_advanced);
