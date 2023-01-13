@@ -1544,10 +1544,10 @@ public class MetaEnums {
 	}
 	
 	public static enum FermiumFuelType implements IStringSerializable, IItemMeta, IFissionStats {
-		LEFm_254("lefm_254", 0),
-		LEFm_254_OXIDE("lefm_254_oxide", 1),
-		HEFm_254("hefm_254", 2),
-		HEFm_254_OXIDE("hefm_254_oxide", 3);
+		LEFm_255("lefm_255", 0),
+		LEFm_255_OXIDE("lefm_255_oxide", 1),
+		HEFm_255("hefm_255", 2),
+		HEFm_255_OXIDE("hefm_255_oxide", 3);
 		
 		private String name;
 		private int id;
@@ -1911,10 +1911,10 @@ public class MetaEnums {
 	}
 	
 	public static enum FermiumDepletedFuelType implements IStringSerializable, IItemMeta {
-		LEFm_254("lefm_254", 0),
-		LEFm_254_OXIDE("lefm_254_oxide", 1),
-		HEFm_254("hefm_254", 2),
-		HEFm_254_OXIDE("hefm_254_oxide", 3);
+		LEFm_255("lefm_255", 0),
+		LEFm_255_OXIDE("lefm_255_oxide", 1),
+		HEFm_255("hefm_255", 2),
+		HEFm_255_OXIDE("hefm_255_oxide", 3);
 		
 		private String name;
 		private int id;
