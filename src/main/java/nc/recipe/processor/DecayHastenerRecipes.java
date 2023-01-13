@@ -46,6 +46,14 @@ public class DecayHastenerRecipes extends ProcessorRecipeHandler {
 		addDecayRecipes("Californium250Base", "Curium246Base");
 		addDecayRecipes("Californium251", "Curium247");
 		addDecayRecipes("Californium252Base", "Thorium232");
+		
+		addDecayRecipes("Einsteinium253Base", "Plutonium241");
+		addDecayRecipes("Einsteinium254", "Californium250Base");
+		addDecayRecipes("Einsteinium255Base", "Curium247");
+		
+		addDecayRecipes("Fermium254Base", "Californium250Base");
+		addDecayRecipes("Fermium255", "Californium251");
+		addDecayRecipes("Fermium257Base", "Einsteinium253Base");
 	}
 	
 	private static final List<String> CHAIN_ENDS = Arrays.asList("Lead", "Bismuth");
