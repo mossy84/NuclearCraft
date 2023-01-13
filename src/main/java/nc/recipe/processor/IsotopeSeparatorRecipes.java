@@ -40,6 +40,8 @@ public class IsotopeSeparatorRecipes extends ProcessorRecipeHandler {
 		addFuelSeparationRecipes("Cm", "Curium", 246, 243, 245, 247);
 		addFuelSeparationRecipes("B", "Berkelium", 247, 248);
 		addFuelSeparationRecipes("Cf", "Californium", 252, 249, 251);
+		addFuelSeparationRecipes("Es", "Einsteinium", 253, 254);
+		addFuelSeparationRecipes("Fm", "Fermium", 257, 255);
 	}
 	
 	public void addFuelSeparationRecipes(String fuel, String element, int fertile, int... fissiles) {
