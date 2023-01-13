@@ -98,6 +98,14 @@ public class InfuserRecipes extends ProcessorRecipeHandler {
 		addFissileOxidizingRecipes("Californium251");
 		addFertileOxidizingRecipes("Californium252");
 		
+		addFertileOxidizingRecipes("Einsteinium253");
+		addFertileOxidizingRecipes("Einsteinium254");
+		addFertileOxidizingRecipes("Einsteinium255");
+		
+		addFertileOxidizingRecipes("Fermium254");
+		addFertileOxidizingRecipes("Fermium255");
+		addFertileOxidizingRecipes("Fermium257");
+		
 		addFuelOxidizingRecipes("TBU");
 		
 		addFuelOxidizingRecipes("LEU233");
@@ -130,6 +138,12 @@ public class InfuserRecipes extends ProcessorRecipeHandler {
 		addFuelOxidizingRecipes("HECf249");
 		addFuelOxidizingRecipes("LECf251");
 		addFuelOxidizingRecipes("HECf251");
+		
+		addFuelOxidizingRecipes("LEEs254");
+		addFuelOxidizingRecipes("HEEs254");
+		
+		addFuelOxidizingRecipes("LEFm255");
+		addFuelOxidizingRecipes("HEFm255");
 	}
 	
 	public void addOxidizingRecipe(String name, int oxygenAmount) {
