@@ -1,0 +1,7 @@
+{
+	"parent": "block/cube_column",
+	"textures": {
+		"end": "nuclearcraft:blocks/rtg_fermium_top",
+		"side": "nuclearcraft:blocks/rtg_fermium_side"
+	}
+}
