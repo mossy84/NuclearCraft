@@ -75,6 +75,8 @@ public class FurnaceRecipeHandler {
 		oxideMaterialRecipes(NCItems.curium, 4);
 		oxideMaterialRecipes(NCItems.berkelium, 2);
 		oxideMaterialRecipes(NCItems.californium, 4);
+		oxideMaterialRecipes(NCItems.einsteinium, 3);
+		oxideMaterialRecipes(NCItems.fermium, 3);
 		
 		oxideFuelRecipes(NCItems.fuel_thorium, NCItems.depleted_fuel_thorium, 1);
 		oxideFuelRecipes(NCItems.fuel_uranium, NCItems.depleted_fuel_uranium, 4);
@@ -84,6 +86,8 @@ public class FurnaceRecipeHandler {
 		oxideFuelRecipes(NCItems.fuel_curium, NCItems.depleted_fuel_curium, 6);
 		oxideFuelRecipes(NCItems.fuel_berkelium, NCItems.depleted_fuel_berkelium, 2);
 		oxideFuelRecipes(NCItems.fuel_californium, NCItems.depleted_fuel_californium, 4);
+		oxideFuelRecipes(NCItems.fuel_einsteinium, NCItems.depleted_fuel_einsteinium, 2);
+		oxideFuelRecipes(NCItems.fuel_fermium, NCItems.depleted_fuel_fermium, 2);
 		
 		GameRegistry.addSmelting(new ItemStack(Items.DYE, 1, 3), new ItemStack(NCItems.roasted_cocoa_beans, 1), 0F);
 	}
