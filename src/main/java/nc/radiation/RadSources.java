@@ -145,6 +145,14 @@ public class RadSources {
 	public static final double CALIFORNIUM_251 = 0.00115D;
 	public static final double CALIFORNIUM_252 = 0.38D;
 	
+	public static final double EINSTEINIUM_253 = 17.8D;
+	public static final double EINSTEINIUM_254 = 1.33D;
+	public static final double EINSTEINIUM_255 = 9.22D
+		
+	public static final double FERMIUM_254 = 2720D;
+	public static final double FERMIUM_255 = 438D;
+	public static final double FERMIUM_257 = 3.65D;
+	
 	public static void init() {
 		for (String oreInfo : NCConfig.radiation_ores_blacklist) {
 			ORE_BLACKLIST.add(oreInfo);
@@ -208,6 +216,14 @@ public class RadSources {
 		putIsotope(CALIFORNIUM_250, "Californium250");
 		putIsotope(CALIFORNIUM_251, "Californium251");
 		putIsotope(CALIFORNIUM_252, "Californium252");
+		
+		putIsotope(EINSTEINIUM_253, "Einsteinium253");
+		putIsotope(EINSTEINIUM_254, "Einsteinium254");
+		putIsotope(EINSTEINIUM_255, "Einsteinium255");
+		
+		putIsotope(FERMIUM_254, "Fermium254");
+		putIsotope(FERMIUM_255, "Fermium255");
+		putIsotope(FERMIUM_257, "Fermium257");
 		
 		putFuel(THORIUM_232, 9, THORIUM_230, 0, "TBU", "tbu");
 		
