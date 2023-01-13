@@ -141,6 +141,8 @@ public class NCTiles {
 		GameRegistry.registerTileEntity(TileRTG.Plutonium.class, Global.MOD_ID + ":rtg_plutonium");
 		GameRegistry.registerTileEntity(TileRTG.Americium.class, Global.MOD_ID + ":rtg_americium");
 		GameRegistry.registerTileEntity(TileRTG.Californium.class, Global.MOD_ID + ":rtg_californium");
+		GameRegistry.registerTileEntity(TileRTG.Einsteinium.class, Global.MOD_ID + ":rtg_einsteinium");
+		GameRegistry.registerTileEntity(TileRTG.Fermium.class, Global.MOD_ID + ":rtg_fermium");
 
 		GameRegistry.registerTileEntity(TileSolarPanel.Basic.class, Global.MOD_ID + ":solar_panel_basic");
 		GameRegistry.registerTileEntity(TileSolarPanel.Advanced.class, Global.MOD_ID + ":solar_panel_advanced");
