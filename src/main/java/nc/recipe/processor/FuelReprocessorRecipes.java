@@ -63,8 +63,8 @@ public class FuelReprocessorRecipes extends ProcessorRecipeHandler {
 				addReprocessingRecipes("LEEs254", "Einsteinium254", 32, "Einsteinium255", 8, "Fermium255", 12, "Fermium257", 20);
 				addReprocessingRecipes("HEEs254", "Einsteinium254", 4, "Einsteinium255", 16, "Fermium255", 16, "Fermium257", 28);
 		
-				addReprocessingRecipes("LEFm255", "Fermium254", 8, "Fermium255", 20, "Fermium255", 20, "Fermium257", 16);
-				addReprocessingRecipes("HEFm255", "Fermium254", 16, "Fermium255", 16, "Fermium255", 16, "Fermium257", 16);
+				addReprocessingRecipes("LEFm255", "Fermium254", 8, "Fermium255", 24, "Fermium257", 16, "Fermium257", 16);
+				addReprocessingRecipes("HEFm255", "Fermium254", 16, "Fermium255", 16, "Fermium257", 16, "Fermium257", 16);
 		
 		// IC2
 		addRecipe("depletedFuelIC2U", RegistryHelper.itemStackFromRegistry("ic2:nuclear:2", 2), RegistryHelper.itemStackFromRegistry("ic2:nuclear:2", 1), RegistryHelper.itemStackFromRegistry("ic2:nuclear:2", 1), RegistryHelper.itemStackFromRegistry("ic2:nuclear:7", 1), 1D, 1D);
