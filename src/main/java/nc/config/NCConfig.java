@@ -151,6 +151,16 @@ public class NCConfig {
 	public static double[] fission_californium_heat_generation;
 	public static double[] fission_californium_radiation;
 	
+	public static double[] fission_einsteinium_fuel_time;
+	public static double[] fission_einsteinium_power;
+	public static double[] fission_einsteinium_heat_generation;
+	public static double[] fission_einsteinium_radiation;
+	
+	public static double[] fission_fermium_fuel_time;
+	public static double[] fission_fermium_power;
+	public static double[] fission_fermium_heat_generation;
+	public static double[] fission_fermium_radiation;
+	
 	public static double fusion_base_power; // Default: 1
 	public static double fusion_fuel_use; // Default: 1
 	public static double fusion_heat_generation; // Default: 1
@@ -592,13 +602,13 @@ public class NCConfig {
 		Property propertyFissionEinsteiniumRadiation = config.get(CATEGORY_FISSION, "fission_einsteinium_radiation", new double[] {(RadSources.LEEs_254 + RadSources.CAESIUM_137)/64D, (RadSources.LEEs_254 + RadSources.CAESIUM_137)/64D, (RadSources.HEEs_254 + RadSources.CAESIUM_137)/64D, (RadSources.HEEs_254 + RadSources.CAESIUM_137)/64D}, Lang.localise("gui.config.fission.fission_einsteinium_radiation.comment"), 0D, 1000D);
 		propertyFissionEinsteiniumRadiation.setLanguageKey("gui.config.fission.fission_einsteinium_radiation");
 		
-		Property propertyFissionFermiumFuelTime = config.get(CATEGORY_FISSION, "fission_fermium_fuel_time", new double[] {30000D, 30000D, 30000D, 30000D}, Lang.localise("gui.config.fission.fission_fermium_fuel_time.comment"), 1D, Double.MAX_VALUE);
+		Property propertyFissionFermiumFuelTime = config.get(CATEGORY_FISSION, "fission_fermium_fuel_time", new double[] {15000D, 15000D, 15000D, 15000D}, Lang.localise("gui.config.fission.fission_fermium_fuel_time.comment"), 1D, Double.MAX_VALUE);
 		propertyFissionFermiumFuelTime.setLanguageKey("gui.config.fission.fission_fermium_fuel_time");
-		Property propertyFissionFermiumPower = config.get(CATEGORY_FISSION, "fission_fermium_power", new double[] {550D, NCMath.round(550D*1.4D, 1), 550D*4D, NCMath.round(550D*4D*1.4D, 1)}, Lang.localise("gui.config.fission.fission_fermium_power.comment"), 0D, 32767D);
+		Property propertyFissionFermiumPower = config.get(CATEGORY_FISSION, "fission_fermium_power", new double[] {900D, NCMath.round(900D*1.4D, 1), 900D*4D, NCMath.round(900D*4D*1.4D, 1)}, Lang.localise("gui.config.fission.fission_fermium_power.comment"), 0D, 32767D);
 		propertyFissionFermiumPower.setLanguageKey("gui.config.fission.fission_fermium_power");
-		Property propertyFissionFermiumHeatGeneration = config.get(CATEGORY_FISSION, "fission_fermium_heat_generation", new double[] {170D, NCMath.round(170D*1.25D, 1), 170D*6D, NCMath.round(170D*6D*1.25D, 1)}, Lang.localise("gui.config.fission.fission_fermium_heat_generation.comment"), 0D, 32767D);
+		Property propertyFissionFermiumHeatGeneration = config.get(CATEGORY_FISSION, "fission_fermium_heat_generation", new double[] {300D, NCMath.round(300D*1.25D, 1), 300D*6D, NCMath.round(300D*6D*1.25D, 1)}, Lang.localise("gui.config.fission.fission_fermium_heat_generation.comment"), 0D, 32767D);
 		propertyFissionFermiumHeatGeneration.setLanguageKey("gui.config.fission.fission_fermium_heat_generation");
-		Property propertyFissionFermiumRadiation = config.get(CATEGORY_FISSION, "fission_fermium_radiation", new double[] {(RadSources.LEFm_254 + RadSources.CAESIUM_137)/64D, (RadSources.LEFm_254 + RadSources.CAESIUM_137)/64D, (RadSources.HEFm_254 + RadSources.CAESIUM_137)/64D, (RadSources.HEFm_254 + RadSources.CAESIUM_137)/64D}, Lang.localise("gui.config.fission.fission_fermium_radiation.comment"), 0D, 1000D);
+		Property propertyFissionFermiumRadiation = config.get(CATEGORY_FISSION, "fission_fermium_radiation", new double[] {(RadSources.LEFm_255 + RadSources.CAESIUM_137)/64D, (RadSources.LEFm_255 + RadSources.CAESIUM_137)/64D, (RadSources.HEFm_255 + RadSources.CAESIUM_137)/64D, (RadSources.HEFm_255 + RadSources.CAESIUM_137)/64D}, Lang.localise("gui.config.fission.fission_fermium_radiation.comment"), 0D, 1000D);
 		propertyFissionFermiumRadiation.setLanguageKey("gui.config.fission.fission_fermium_radiation");
 		
 		Property propertyFusionBasePower = config.get(CATEGORY_FUSION, "fusion_base_power", 1D, Lang.localise("gui.config.fusion.fusion_base_power.comment"), 0D, 255D);
