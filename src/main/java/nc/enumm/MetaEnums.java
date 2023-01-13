@@ -941,6 +941,82 @@ public class MetaEnums {
 		}
 	}
 	
+	public static enum EinsteiniumType implements IStringSerializable, IItemMeta {
+		_253("_253", 0),
+		_253_OXIDE("_253_oxide", 1),
+		_253_TINY("_253_tiny", 2),
+		_253_OXIDE_TINY("_253_oxide_tiny", 3),
+		_254("_254", 4),
+		_254_OXIDE("_254_oxide", 5),
+		_254_TINY("_254_tiny", 6),
+		_254_OXIDE_TINY("_254_oxide_tiny", 7)
+		_255("_255", 8),
+		_255_OXIDE("_255_oxide", 9),
+		_255_TINY("_255_tiny", 10),
+		_255_OXIDE_TINY("_255_oxide_tiny", 11);
+		
+		private String name;
+		private int id;
+		
+		private EinsteiniumType(String name, int id) {
+			this.name = name;
+			this.id = id;
+		}
+
+		@Override
+		public String getName() {
+			return name;
+		}
+		
+		@Override
+		public String toString() {
+			return getName();
+		}
+		
+		@Override
+		public int getID() {
+			return id;
+		}
+	}
+	
+	public static enum FermiumType implements IStringSerializable, IItemMeta {
+		_254("_254", 0),
+		_254_OXIDE("_254_oxide", 1),
+		_254_TINY("_254_tiny", 2),
+		_254_OXIDE_TINY("_254_oxide_tiny", 3),
+		_255("_255", 4),
+		_255_OXIDE("_255_oxide", 5),
+		_255_TINY("_255_tiny", 6),
+		_255_OXIDE_TINY("_255_oxide_tiny", 7)
+		_257("_257", 8),
+		_257_OXIDE("_257_oxide", 9),
+		_257_TINY("_257_tiny", 10),
+		_257_OXIDE_TINY("_257_oxide_tiny", 11);
+		
+		private String name;
+		private int id;
+		
+		private FermiumType(String name, int id) {
+			this.name = name;
+			this.id = id;
+		}
+
+		@Override
+		public String getName() {
+			return name;
+		}
+		
+		@Override
+		public String toString() {
+			return getName();
+		}
+		
+		@Override
+		public int getID() {
+			return id;
+		}
+	}
+	
 	public static enum ThoriumFuelType implements IStringSerializable, IItemMeta, IFissionStats {
 		TBU("tbu", 0),
 		TBU_OXIDE("tbu_oxide", 1);
@@ -1416,6 +1492,108 @@ public class MetaEnums {
 		}
 	}
 	
+	public static enum EinsteiniumFuelType implements IStringSerializable, IItemMeta, IFissionStats {
+		LEEs_254("lees_254", 0),
+		LEEs_254_OXIDE("lees_254_oxide", 1),
+		HEEs_254("hees_254", 2),
+		HEEs_254_OXIDE("hees_254_oxide", 3);
+		
+		private String name;
+		private int id;
+		private double fuelTime;
+		private double power;
+		private double heatGen;
+		
+		private EinsteiniumFuelType(String name, int id) {
+			this.name = name;
+			this.id = id;
+			fuelTime = NCConfig.fission_einsteinium_fuel_time[id];
+			power = NCConfig.fission_einsteinium_power[id];
+			heatGen = NCConfig.fission_einsteinium_heat_generation[id];
+		}
+
+		@Override
+		public String getName() {
+			return name;
+		}
+		
+		@Override
+		public String toString() {
+			return getName();
+		}
+		
+		@Override
+		public int getID() {
+			return id;
+		}
+		
+		@Override
+		public double getBaseTime() {
+			return fuelTime;
+		}
+
+		@Override
+		public double getBasePower() {
+			return power;
+		}
+
+		@Override
+		public double getBaseHeat() {
+			return heatGen;
+		}
+	}
+	
+	public static enum FermiumFuelType implements IStringSerializable, IItemMeta, IFissionStats {
+		LEFm_254("lefm_254", 0),
+		LEFm_254_OXIDE("lefm_254_oxide", 1),
+		HEFm_254("hefm_254", 2),
+		HEFm_254_OXIDE("hefm_254_oxide", 3);
+		
+		private String name;
+		private int id;
+		private double fuelTime;
+		private double power;
+		private double heatGen;
+		
+		private FermiumFuelType(String name, int id) {
+			this.name = name;
+			this.id = id;
+			fuelTime = NCConfig.fission_fermium_fuel_time[id];
+			power = NCConfig.fission_fermium_power[id];
+			heatGen = NCConfig.fission_fermium_heat_generation[id];
+		}
+
+		@Override
+		public String getName() {
+			return name;
+		}
+		
+		@Override
+		public String toString() {
+			return getName();
+		}
+		
+		@Override
+		public int getID() {
+			return id;
+		}
+		
+		@Override
+		public double getBaseTime() {
+			return fuelTime;
+		}
+
+		@Override
+		public double getBasePower() {
+			return power;
+		}
+
+		@Override
+		public double getBaseHeat() {
+			return heatGen;
+		}
+	}
+	
 	public static enum ThoriumDepletedFuelType implements IStringSerializable, IItemMeta {
 		TBU("tbu", 0),
 		TBU_OXIDE("tbu_oxide", 1);
@@ -1682,6 +1860,66 @@ public class MetaEnums {
 		private int id;
 		
 		private CaliforniumDepletedFuelType(String name, int id) {
+			this.name = name;
+			this.id = id;
+		}
+
+		@Override
+		public String getName() {
+			return name;
+		}
+		
+		@Override
+		public String toString() {
+			return getName();
+		}
+		
+		@Override
+		public int getID() {
+			return id;
+		}
+	}
+	
+	public static enum EinsteiniumDepletedFuelType implements IStringSerializable, IItemMeta {
+		LEEs_254("lees_254", 0),
+		LEEs_254_OXIDE("lees_254_oxide", 1),
+		HEEs_254("hees_254", 2),
+		HEEs_254_OXIDE("hees_254_oxide", 3);
+		
+		private String name;
+		private int id;
+		
+		private EinsteiniumDepletedFuelType(String name, int id) {
+			this.name = name;
+			this.id = id;
+		}
+
+		@Override
+		public String getName() {
+			return name;
+		}
+		
+		@Override
+		public String toString() {
+			return getName();
+		}
+		
+		@Override
+		public int getID() {
+			return id;
+		}
+	}
+	
+	public static enum FermiumDepletedFuelType implements IStringSerializable, IItemMeta {
+		LEFm_254("lefm_254", 0),
+		LEFm_254_OXIDE("lefm_254_oxide", 1),
+		HEFm_254("hefm_254", 2),
+		HEFm_254_OXIDE("hefm_254_oxide", 3);
+		
+		private String name;
+		private int id;
+		
+		private FermiumDepletedFuelType(String name, int id) {
 			this.name = name;
 			this.id = id;
 		}
