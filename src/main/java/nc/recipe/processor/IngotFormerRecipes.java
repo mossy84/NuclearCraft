@@ -89,6 +89,8 @@ public class IngotFormerRecipes extends ProcessorRecipeHandler {
 		addIsotopeFormingRecipes("Curium", 243, 245, 246, 247);
 		addIsotopeFormingRecipes("Berkelium", 247, 248);
 		addIsotopeFormingRecipes("Californium", 249, 250, 251, 252);
+		addIsotopeFormingRecipes("Einsteinium", 253, 254, 255);
+		addIsotopeFormingRecipes("Fermium", 254, 255, 257);
 		
 		// Fission Fuels
 		//addRecipe(fluidStack("fuel_tbu", FluidStackHelper.INGOT_BLOCK_VOLUME), "fuelTBU", NCConfig.processor_time[10]*9);
@@ -100,6 +102,8 @@ public class IngotFormerRecipes extends ProcessorRecipeHandler {
 		addFissionFuelFormingRecipes("curium", "ec", "m", 243, 245, 247);
 		addFissionFuelFormingRecipes("berkelium", "eb", 248);
 		addFissionFuelFormingRecipes("californium", "ec", "f", 249, 251);
+		addFissionFuelFormingRecipes("einsteinium", "ee", "s", 254);
+		addFissionFuelFormingRecipes("fermium", "ef", "m", 255);
 	}
 	
 	public void addIngotFormingRecipe(String fluid, String metal) {
