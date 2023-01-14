@@ -1493,10 +1493,10 @@ public class MetaEnums {
 	}
 	
 	public static enum EinsteiniumFuelType implements IStringSerializable, IItemMeta, IFissionStats {
-		LEEs_254("lees_254", 0),
-		LEEs_254_OXIDE("lees_254_oxide", 1),
-		HEEs_254("hees_254", 2),
-		HEEs_254_OXIDE("hees_254_oxide", 3);
+		LEEs_254("lee_254", 0),
+		LEEs_254_OXIDE("lee_254_oxide", 1),
+		HEEs_254("hee_254", 2),
+		HEEs_254_OXIDE("hee_254_oxide", 3);
 		
 		private String name;
 		private int id;
@@ -1544,10 +1544,10 @@ public class MetaEnums {
 	}
 	
 	public static enum FermiumFuelType implements IStringSerializable, IItemMeta, IFissionStats {
-		LEFm_255("lefm_255", 0),
-		LEFm_255_OXIDE("lefm_255_oxide", 1),
-		HEFm_255("hefm_255", 2),
-		HEFm_255_OXIDE("hefm_255_oxide", 3);
+		LEFm_255("lef_255", 0),
+		LEFm_255_OXIDE("lef_255_oxide", 1),
+		HEFm_255("hef_255", 2),
+		HEFm_255_OXIDE("hef_255_oxide", 3);
 		
 		private String name;
 		private int id;
@@ -1881,10 +1881,10 @@ public class MetaEnums {
 	}
 	
 	public static enum EinsteiniumDepletedFuelType implements IStringSerializable, IItemMeta {
-		LEEs_254("lees_254", 0),
-		LEEs_254_OXIDE("lees_254_oxide", 1),
-		HEEs_254("hees_254", 2),
-		HEEs_254_OXIDE("hees_254_oxide", 3);
+		LEEs_254("lee_254", 0),
+		LEEs_254_OXIDE("lee_254_oxide", 1),
+		HEEs_254("hee_254", 2),
+		HEEs_254_OXIDE("hee_254_oxide", 3);
 		
 		private String name;
 		private int id;
@@ -1911,10 +1911,10 @@ public class MetaEnums {
 	}
 	
 	public static enum FermiumDepletedFuelType implements IStringSerializable, IItemMeta {
-		LEFm_255("lefm_255", 0),
-		LEFm_255_OXIDE("lefm_255_oxide", 1),
-		HEFm_255("hefm_255", 2),
-		HEFm_255_OXIDE("hefm_255_oxide", 3);
+		LEFm_255("lef_255", 0),
+		LEFm_255_OXIDE("lef_255_oxide", 1),
+		HEFm_255("hef_255", 2),
+		HEFm_255_OXIDE("hef_255_oxide", 3);
 		
 		private String name;
 		private int id;
