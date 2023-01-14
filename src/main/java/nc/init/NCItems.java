@@ -177,7 +177,7 @@ public class NCItems {
 		depleted_fuel_berkelium = withName(new ItemDepletedFissionFuel(MetaEnums.BerkeliumDepletedFuelType.class), "depleted_fuel_berkelium");
 		depleted_fuel_californium = withName(new ItemDepletedFissionFuel(MetaEnums.CaliforniumDepletedFuelType.class), "depleted_fuel_californium");
 		depleted_fuel_einsteinium = withName(new ItemDepletedFissionFuel(MetaEnums.EinsteiniumDepletedFuelType.class), "depleted_fuel_einsteinium");
-		depleted_fuel_fermium = withName(new ItemDepletedFissionFuel(MetaEnums.fermiumDepletedFuelType.class), "depleted_fuel_fermium");
+		depleted_fuel_fermium = withName(new ItemDepletedFissionFuel(MetaEnums.FermiumDepletedFuelType.class), "depleted_fuel_fermium");
 		
 		depleted_fuel_ic2 = withName(new ItemDepletedFissionFuel(MetaEnums.IC2DepletedFuelType.class), "depleted_fuel_ic2");
 		
