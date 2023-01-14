@@ -147,7 +147,7 @@ public class RadSources {
 	
 	public static final double EINSTEINIUM_253 = 17.8D;
 	public static final double EINSTEINIUM_254 = 1.33D;
-	public static final double EINSTEINIUM_255 = 9.22D
+	public static final double EINSTEINIUM_255 = 9.22D;
 		
 	public static final double FERMIUM_254 = 2720D;
 	public static final double FERMIUM_255 = 438D;
