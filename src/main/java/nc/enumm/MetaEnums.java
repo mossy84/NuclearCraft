@@ -949,7 +949,7 @@ public class MetaEnums {
 		_254("_254", 4),
 		_254_OXIDE("_254_oxide", 5),
 		_254_TINY("_254_tiny", 6),
-		_254_OXIDE_TINY("_254_oxide_tiny", 7)
+		_254_OXIDE_TINY("_254_oxide_tiny", 7),
 		_255("_255", 8),
 		_255_OXIDE("_255_oxide", 9),
 		_255_TINY("_255_tiny", 10),
@@ -987,7 +987,7 @@ public class MetaEnums {
 		_255("_255", 4),
 		_255_OXIDE("_255_oxide", 5),
 		_255_TINY("_255_tiny", 6),
-		_255_OXIDE_TINY("_255_oxide_tiny", 7)
+		_255_OXIDE_TINY("_255_oxide_tiny", 7),
 		_257("_257", 8),
 		_257_OXIDE("_257_oxide", 9),
 		_257_TINY("_257_tiny", 10),
