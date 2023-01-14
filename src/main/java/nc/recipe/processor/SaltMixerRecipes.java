@@ -54,8 +54,8 @@ public class SaltMixerRecipes extends ProcessorRecipeHandler {
 		addFuelIsotopeRecipes("ecm", "curium", 246, 243, 245, 247);
 		addFuelIsotopeRecipes("eb", "berkelium", 247, 248);
 		addFuelIsotopeRecipes("ecf", "californium", 252, 249, 251);
-		addFuelIsotopeRecieps("ees", "einsteinium", 253, 254);
-		addFuelIsotopeRecipes("efm", "fermium", 257, 255);
+		//addFuelIsotopeRecieps("ees", "einsteinium", 253, 254);
+		//addFuelIsotopeRecipes("efm", "fermium", 257, 255);
 		
 		addElementFLIBERecipes("thorium", "uranium", "plutonium");
 		
@@ -74,8 +74,8 @@ public class SaltMixerRecipes extends ProcessorRecipeHandler {
 		addIsotopeFLIBERecipes("curium", 243, 245, 246, 247);
 		addIsotopeFLIBERecipes("berkelium", 247, 248);
 		addIsotopeFLIBERecipes("californium", 249, 250, 251, 252);
-		addIsotopeFLIBERecipes("einsteinium", 253, 254, 255);
-		addIsotopeFLIBERecipes("fermium", 254, 255, 257);
+		//addIsotopeFLIBERecipes("einsteinium", 253, 254, 255);
+		//addIsotopeFLIBERecipes("fermium", 254, 255, 257);
 		
 		addRecipe(fluidStack("fuel_tbu_fluoride", FluidStackHelper.INGOT_VOLUME), fluidStack("flibe", FluidStackHelper.INGOT_VOLUME), fluidStack("fuel_tbu_fluoride_flibe", FluidStackHelper.INGOT_VOLUME*2), 1D, 1D);
 		addRecipe(fluidStack("depleted_fuel_tbu_fluoride", FluidStackHelper.INGOT_VOLUME), fluidStack("flibe", FluidStackHelper.INGOT_VOLUME), fluidStack("depleted_fuel_tbu_fluoride_flibe", FluidStackHelper.INGOT_VOLUME*2), 1D, 1D);
@@ -86,8 +86,8 @@ public class SaltMixerRecipes extends ProcessorRecipeHandler {
 		addFissionFuelFLIBERecipes("ecm", 243, 245, 247);
 		addFissionFuelFLIBERecipes("eb", 248);
 		addFissionFuelFLIBERecipes("ecf", 249, 251);
-		addFissionFuelFLIBERecipes("ees", 254);
-		addFissionFuelFLIBERecipes("efm", 255);
+		//addFissionFuelFLIBERecipes("ees", 254);
+		//addFissionFuelFLIBERecipes("efm", 255);
 	}
 	
 	public void addCoolantNAKRecipe(String name, int amount) {
