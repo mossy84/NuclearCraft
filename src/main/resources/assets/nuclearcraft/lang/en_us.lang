@@ -2022,7 +2022,7 @@ gui.config.category.generators=Generator Configs
 gui.config.category.generators.tooltip=Configure generators.
 
 gui.config.generators.rtg_power=RTG Power Gen
-gui.config.generators.rtg_power.comment=RF/t generated. Order: Uranium, Plutonium, Americium, Californium.
+gui.config.generators.rtg_power.comment=RF/t generated. Order: Uranium, Plutonium, Americium, Californium, Einsteinium, Fermium.
 gui.config.generators.solar_power=Solar Panel Power Gen
 gui.config.generators.solar_power.comment=RF/t generated. Order: Basic, Advanced, DU, Elite.
 gui.config.generators.decay_lifetime=Decay Generator Mean Lifetimes
