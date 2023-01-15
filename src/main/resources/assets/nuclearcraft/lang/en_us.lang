@@ -1726,15 +1726,15 @@ item.nuclearcraft.depleted_fuel_californium.lec_251_oxide.name=Depleted LECf-251
 item.nuclearcraft.depleted_fuel_californium.hec_251.name=Depleted HECf-251 Fuel
 item.nuclearcraft.depleted_fuel_californium.hec_251_oxide.name=Depleted HECf-251 Oxide Fuel
 
-item.nuclearcraft.depleted_fuel_einsteinium.lee-254.name=Depleted LEEs-254 Fuel
-item.nuclearcraft.depleted_fuel_einsteinium.lee-254_oxide.name=Depleted LEEs-254 Oxide Fuel
-item.nuclearcraft.depleted_fuel_einsteinium.hee-254.name=Depleted HEEs-254 Fuel
-item.nuclearcraft.depleted_fuel_einsteinium.hee-254_oxide.name=Depleted HEEs-254 Oxide Fuel
+item.nuclearcraft.depleted_fuel_einsteinium.lee_254.name=Depleted LEEs-254 Fuel
+item.nuclearcraft.depleted_fuel_einsteinium.lee_254_oxide.name=Depleted LEEs-254 Oxide Fuel
+item.nuclearcraft.depleted_fuel_einsteinium.hee_254.name=Depleted HEEs-254 Fuel
+item.nuclearcraft.depleted_fuel_einsteinium.hee_254_oxide.name=Depleted HEEs-254 Oxide Fuel
 
-item.nuclearcraft.depleted_fuel_fermium.lef-255.name=Depleted LEFm-255 Fuel
-item.nuclearcraft.depleted_fuel_fermium.lef-255_oxide.name=Depleted LEFm-255 Oxide Fuel
-item.nuclearcraft.depleted_fuel_fermium.hef-255.name=Depleted HEFm-255 Fuel
-item.nuclearcraft.depleted_fuel_fermium.hef-255_oxide.name=Depleted HEFm-255 Oxide Fuel
+item.nuclearcraft.depleted_fuel_fermium.lef_255.name=Depleted LEFm-255 Fuel
+item.nuclearcraft.depleted_fuel_fermium.lef_255_oxide.name=Depleted LEFm-255 Oxide Fuel
+item.nuclearcraft.depleted_fuel_fermium.hef_255.name=Depleted HEFm-255 Fuel
+item.nuclearcraft.depleted_fuel_fermium.hef_255_oxide.name=Depleted HEFm-255 Oxide Fuel
 
 item.nuclearcraft.depleted_fuel_ic2.u.name=Depleted Uranium Nuclear Fuel
 item.nuclearcraft.depleted_fuel_ic2.mox.name=Depleted MOX Nuclear Fuel
