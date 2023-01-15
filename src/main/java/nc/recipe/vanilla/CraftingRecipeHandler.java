@@ -102,7 +102,7 @@ public class CraftingRecipeHandler {
 		blockCompress(NCBlocks.block_depleted_curium, 0, "blockCurium246", "ingotCurium246");
 		blockCompress(NCBlocks.block_depleted_berkelium, 0, "blockBerkelium247", "ingotBerkelium247");
 		blockCompress(NCBlocks.block_depleted_californium, 0, "blockCalifornium252", "ingotCalifornium252");
-		blockCompress(NCBlocks.block_depleted_einsteinium, 0, "blockEinsteinium253", "ingotEinstinium253");
+		blockCompress(NCBlocks.block_depleted_einsteinium, 0, "blockEinsteinium253", "ingotEinsteinium253");
 		blockCompress(NCBlocks.block_depleted_fermium, 0, "blockFermium257", "ingotFermium257");
 		
 		blockOpen(NCItems.thorium, 0, "ingotThorium230", "blockThorium230");
