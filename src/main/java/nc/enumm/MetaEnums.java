@@ -637,6 +637,36 @@ public class MetaEnums {
 		}
 	}
 	
+	public static enum ActiniumType implements IStringSerializable, IItemMeta {
+		_227("_227", 0),
+		_227_OXIDE("_227_oxide", 1),
+		_227_TINY("_227_tiny", 2),
+		_227_OXIDE_TINY("_227_oxide_tiny", 3),
+		
+		private String name;
+		private int id;
+		
+		private ActiniumType(String name, int id) {
+			this.name = name;
+			this.id = id;
+		}
+
+		@Override
+		public String getName() {
+			return name;
+		}
+		
+		@Override
+		public String toString() {
+			return getName();
+		}
+		
+		@Override
+		public int getID() {
+			return id;
+		}
+	}
+	
 	public static enum ThoriumType implements IStringSerializable, IItemMeta {
 		_230("_230", 0),
 		_230_OXIDE("_230_oxide", 1),
@@ -651,6 +681,36 @@ public class MetaEnums {
 		private int id;
 		
 		private ThoriumType(String name, int id) {
+			this.name = name;
+			this.id = id;
+		}
+
+		@Override
+		public String getName() {
+			return name;
+		}
+		
+		@Override
+		public String toString() {
+			return getName();
+		}
+		
+		@Override
+		public int getID() {
+			return id;
+		}
+	}
+	
+	public static enum ProtactiniumType implements IStringSerializable, IItemMeta {
+		_231("_231", 0),
+		_231_OXIDE("_231_oxide", 1),
+		_231_TINY("_231_tiny", 2),
+		_231_OXIDE_TINY("_231_oxide_tiny", 3),
+		
+		private String name;
+		private int id;
+		
+		private ProtactiniumType(String name, int id) {
 			this.name = name;
 			this.id = id;
 		}
