@@ -38,7 +38,9 @@ public class OreDictHandler {
 		OreDictionary.registerOre("blockFissionModerator", new ItemStack(NCBlocks.ingot_block, 1, 8));
 		OreDictionary.registerOre("blockFissionModerator", new ItemStack(NCBlocks.ingot_block, 1, 9));
 		
+		OreDictionary.registerOre("blockActinium227", NCBlocks.block_depleted_actinium);
 		OreDictionary.registerOre("blockThorium230", NCBlocks.block_depleted_thorium);
+		OreDictionary.registerOre("blockProtactinium231", NCBlocks.block_depleted_protactinium);
 		OreDictionary.registerOre("blockUranium238", NCBlocks.block_depleted_uranium);
 		OreDictionary.registerOre("blockNeptunium237", NCBlocks.block_depleted_neptunium);
 		OreDictionary.registerOre("blockPlutonium242", NCBlocks.block_depleted_plutonium);
@@ -159,6 +161,12 @@ public class OreDictHandler {
 		
 		// Fertile oxides are also registered as non-oxides for recipes that don't care whether the material is an oxide
 		
+		OreDictionary.registerOre("ingotActinium227Base", new ItemStack(NCItems.actinium, 1, 0));
+		OreDictionary.registerOre("ingotActinium227", new ItemStack(NCItems.actinium, 1, 0));
+		OreDictionary.registerOre("ingotActinium227Oxide", new ItemStack(NCItems.actinium, 1, 1));
+		OreDictionary.registerOre("nuggetActinium227", new ItemStack(NCItems.actinium, 1, 2));
+		OreDictionary.registerOre("nuggetActinium227Oxide", new ItemStack(NCItems.actinium, 1, 3));
+		
 		OreDictionary.registerOre("ingotThorium230Base", new ItemStack(NCItems.thorium, 1, 0));
 		OreDictionary.registerOre("ingotThorium230", new ItemStack(NCItems.thorium, 1, 0));
 		OreDictionary.registerOre("ingotThorium230Oxide", new ItemStack(NCItems.thorium, 1, 1));
@@ -170,6 +178,12 @@ public class OreDictHandler {
 		OreDictionary.registerOre("ingotThorium232Oxide", new ItemStack(NCItems.thorium, 1, 5));
 		OreDictionary.registerOre("nuggetThorium232", new ItemStack(NCItems.thorium, 1, 6));
 		OreDictionary.registerOre("nuggetThorium232Oxide", new ItemStack(NCItems.thorium, 1, 7));
+		
+		OreDictionary.registerOre("ingotProtactinium231Base", new ItemStack(NCItems.protactinium, 1, 0));
+		OreDictionary.registerOre("ingotProtactinium231", new ItemStack(NCItems.protactinium, 1, 0));
+		OreDictionary.registerOre("ingotProtactinium231Oxide", new ItemStack(NCItems.protactinium, 1, 1));
+		OreDictionary.registerOre("nuggetProtactinium231", new ItemStack(NCItems.protactinium, 1, 2));
+		OreDictionary.registerOre("nuggetProtactinium231Oxide", new ItemStack(NCItems.protactinium, 1, 3));
 		
 		OreDictionary.registerOre("ingotUranium233Base", new ItemStack(NCItems.uranium, 1, 0));
 		OreDictionary.registerOre("ingotUranium233", new ItemStack(NCItems.uranium, 1, 0));
