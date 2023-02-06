@@ -100,7 +100,9 @@ public class NCBlocks {
 	public static Block reactor_door;
 	public static Block reactor_trapdoor;
 	
+	public static Block block_depleted_actinium;
 	public static Block block_depleted_thorium;
+	public static Block block_depleted_protactinium;
 	public static Block block_depleted_uranium;
 	public static Block block_depleted_neptunium;
 	public static Block block_depleted_plutonium;
@@ -487,7 +489,9 @@ public class NCBlocks {
 		registerBlock(reactor_door);
 		registerBlock(reactor_trapdoor);
 		
+		registerBlock(block_depleted_actinium);
 		registerBlock(block_depleted_thorium);
+		registerBlock(block_depleted_protactinium);
 		registerBlock(block_depleted_uranium);
 		registerBlock(block_depleted_neptunium);
 		registerBlock(block_depleted_plutonium);
@@ -694,7 +698,9 @@ public class NCBlocks {
 		registerRender(reactor_door);
 		registerRender(reactor_trapdoor);
 
+		registerRender(block_depleted_actinium);
 		registerRender(block_depleted_thorium);
+		registerRender(block_depleted_protactinium);
 		registerRender(block_depleted_uranium);
 		registerRender(block_depleted_neptunium);
 		registerRender(block_depleted_plutonium);
