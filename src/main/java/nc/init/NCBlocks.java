@@ -294,7 +294,9 @@ public class NCBlocks {
 		reactor_door = withName(new NCBlockDoor(Material.IRON), "reactor_door");
 		reactor_trapdoor = withName(new NCBlockTrapDoor(Material.IRON), "reactor_trapdoor");
 		
+		block_depleted_actinium = withName(new NCBlock(Material.IRON).setCreativeTab(NCTabs.BASE_BLOCK_MATERIALS), "block_depleted_actinium");
 		block_depleted_thorium = withName(new NCBlock(Material.IRON).setCreativeTab(NCTabs.BASE_BLOCK_MATERIALS), "block_depleted_thorium");
+		block_depleted_protactinium = withName(new NCBlock(Material.IRON).setCreativeTab(NCTabs.BASE_BLOCK_MATERIALS), "block_depleted_protactinium");
 		block_depleted_uranium = withName(new NCBlock(Material.IRON).setCreativeTab(NCTabs.BASE_BLOCK_MATERIALS), "block_depleted_uranium");
 		block_depleted_neptunium = withName(new NCBlock(Material.IRON).setCreativeTab(NCTabs.BASE_BLOCK_MATERIALS), "block_depleted_neptunium");
 		block_depleted_plutonium = withName(new NCBlock(Material.IRON).setCreativeTab(NCTabs.BASE_BLOCK_MATERIALS), "block_depleted_plutonium");
