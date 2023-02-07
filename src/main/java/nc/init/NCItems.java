@@ -242,7 +242,7 @@ public class NCItems {
 		registerItem(fuel_rod, null);
 		registerItem(reactor_door, NCTabs.FISSION_BLOCKS);
 		
-		registerItem(actinium. NCTabs.FISSION_MATERIALS);
+		registerItem(actinium, NCTabs.FISSION_MATERIALS);
 		registerItem(thorium, NCTabs.FISSION_MATERIALS);
 		registerItem(protactinium, NCTabs.FISSION_MATERIALS);
 		registerItem(uranium, NCTabs.FISSION_MATERIALS);
