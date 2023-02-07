@@ -20,7 +20,7 @@ public class DecayGeneratorRecipes extends ProcessorRecipeHandler {
 		
 		addRecipe("blockActinium227", "blockLead", NCConfig.decay_lifetime[10], 1D*NCConfig.decay_power[10], RadSources.ACTINIUM_227*9D);
 		addRecipe("blockThorium230", "blockLead", NCConfig.decay_lifetime[2], 1D*NCConfig.decay_power[2], RadSources.THORIUM_230*9D);
-		addRecipe("blockProtactinium231", "blockActinium227", NCConfig.decay_lifetime[11], 1D*NCConfig.decay_power[11], RadSources.PROTACTINIUM_227*9D);
+		addRecipe("blockProtactinium231", "blockActinium227", NCConfig.decay_lifetime[11], 1D*NCConfig.decay_power[11], RadSources.PROTACTINIUM_231*9D);
 		addRecipe("blockUranium238", "blockThorium230", NCConfig.decay_lifetime[3], 1D*NCConfig.decay_power[3], RadSources.URANIUM_238*9D);
 		addRecipe("blockNeptunium237", OreDictHelper.oreExists("blockBismuth") ? "blockBismuth" : "blockLead", NCConfig.decay_lifetime[4], 1D*NCConfig.decay_power[4], RadSources.NEPTUNIUM_237*9D);
 		addRecipe("blockPlutonium242", "blockUranium238", NCConfig.decay_lifetime[5], 1D*NCConfig.decay_power[5], RadSources.PLUTONIUM_242*9D);
