@@ -641,7 +641,7 @@ public class MetaEnums {
 		_227("_227", 0),
 		_227_OXIDE("_227_oxide", 1),
 		_227_TINY("_227_tiny", 2),
-		_227_OXIDE_TINY("_227_oxide_tiny", 3),
+		_227_OXIDE_TINY("_227_oxide_tiny", 3);
 		
 		private String name;
 		private int id;
@@ -705,7 +705,7 @@ public class MetaEnums {
 		_231("_231", 0),
 		_231_OXIDE("_231_oxide", 1),
 		_231_TINY("_231_tiny", 2),
-		_231_OXIDE_TINY("_231_oxide_tiny", 3),
+		_231_OXIDE_TINY("_231_oxide_tiny", 3);
 		
 		private String name;
 		private int id;
