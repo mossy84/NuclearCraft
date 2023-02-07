@@ -113,8 +113,12 @@ public class RadSources {
 	public static final double URANIUM = 0.000000000385D;
 	public static final double PLUTONIUM = 0.000042D;
 	
+	public static final double ACTINIUM_227 = 0.046D;
+	
 	public static final double THORIUM_230 = 0.0000135D;
 	public static final double THORIUM_232 = 0.0000000000715D;
+	
+	public static final double PROTACTINIUM_231 = 0.0000307D;
 	
 	public static final double URANIUM_233 = 0.0000063D;
 	public static final double URANIUM_235 = 0.00000000145D;
@@ -185,8 +189,12 @@ public class RadSources {
 		putMaterial(URANIUM, "Uranium", "Yellorium");
 		putMaterial(PLUTONIUM, "Plutonium", "Blutonium");
 		
+		putIsotope(ACTINIUM_227, "Actinium227");
+		
 		putIsotope(THORIUM_230, "Thorium230");
 		putIsotope(THORIUM_232, "Thorium232");
+		
+		putIsotope(PROTACTINIUM_231, "Protactinium231");
 		
 		putIsotope(URANIUM_233, "Uranium233");
 		putMaterial(URANIUM_235, "Uranium235");
