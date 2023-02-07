@@ -94,7 +94,9 @@ public class CraftingRecipeHandler {
 		addShapedOreRecipe(NCItems.reactor_door, new Object[] {"CC", "CC", "CC", 'C', new ItemStack(NCBlocks.fission_block, 1, 0)});
 		addShapedOreRecipe(NCBlocks.reactor_trapdoor, new Object[] {"CCC", "CCC", 'C', new ItemStack(NCBlocks.fission_block, 1, 0)});
 		
+		blockCompress(NCBlocks.block_depleted_actinium, 0, "blockActinium227", "ingotActinium227");
 		blockCompress(NCBlocks.block_depleted_thorium, 0, "blockThorium230", "ingotThorium230");
+		blockCompress(NCBlocks.block_depleted_protactinium, 0, "blockProtactinium231", "ingotProtactinium231");
 		blockCompress(NCBlocks.block_depleted_uranium, 0, "blockUranium238", "ingotUranium238");
 		blockCompress(NCBlocks.block_depleted_neptunium, 0, "blockNeptunium237", "ingotNeptunium237");
 		blockCompress(NCBlocks.block_depleted_plutonium, 0, "blockPlutonium242", "ingotPlutonium242");
@@ -105,7 +107,9 @@ public class CraftingRecipeHandler {
 		blockCompress(NCBlocks.block_depleted_einsteinium, 0, "blockEinsteinium253", "ingotEinsteinium253");
 		blockCompress(NCBlocks.block_depleted_fermium, 0, "blockFermium257", "ingotFermium257");
 		
+		blockOpen(NCItems.actinium, 0, "ingotActinium227", "blockActinium227");
 		blockOpen(NCItems.thorium, 0, "ingotThorium230", "blockThorium230");
+		blockOpen(NCItems.protactinium, 0, "ingotProtactinium231", "blockProtactinium231");
 		blockOpen(NCItems.uranium, 8, "ingotUranium238", "blockUranium238");
 		blockOpen(NCItems.neptunium, 4, "ingotNeptunium237", "blockNeptunium237");
 		blockOpen(NCItems.plutonium, 12, "ingotPlutonium242", "blockPlutonium242");
@@ -302,7 +306,9 @@ public class CraftingRecipeHandler {
 		addShapelessOreRecipe(new ItemStack(NCItems.fuel_mixed_oxide, 1, 0), new Object[] {"ingotPlutonium239Oxide", "ingotUranium238", "ingotUranium238", "ingotUranium238", "ingotUranium238", "ingotUranium238", "ingotUranium238", "ingotUranium238", "ingotUranium238"});
 		addShapelessOreRecipe(new ItemStack(NCItems.fuel_mixed_oxide, 1, 1), new Object[] {"ingotPlutonium241Oxide", "ingotUranium238", "ingotUranium238", "ingotUranium238", "ingotUranium238", "ingotUranium238", "ingotUranium238", "ingotUranium238", "ingotUranium238"});
 		
+		fissionClumpRecipes("Actinium", NCItems.actinium, 227);
 		fissionClumpRecipes("Thorium", NCItems.thorium, 230, 232);
+		fissionClumpRecipes("Protactinium", NCItems.protactinium, 231);
 		fissionClumpRecipes("Uranium", NCItems.uranium, 233, 235, 238);
 		fissionClumpRecipes("Neptunium", NCItems.neptunium, 236, 237);
 		fissionClumpRecipes("Plutonium", NCItems.plutonium, 238, 239, 241, 242);
