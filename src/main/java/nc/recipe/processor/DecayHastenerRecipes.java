@@ -15,11 +15,15 @@ public class DecayHastenerRecipes extends ProcessorRecipeHandler {
 
 	@Override
 	public void addRecipes() {
+		addDecayRecipes("Actinium227Base", "Lead");
+		
 		addDecayRecipes("Thorium230Base", "Lead");
 		addDecayRecipes("Thorium232", "Lead");
 		
+		addDecayRecipes("Protactinium231Base", "Actinium227Base");
+		
 		addDecayRecipes("Uranium233", OreDictHelper.oreExists("dustBismuth") ? "Bismuth" : "Lead");
-		addDecayRecipes("Uranium235", "Lead");
+		addDecayRecipes("Uranium235", "Protactinium231Base");
 		addDecayRecipes("Uranium238Base", "Thorium230Base");
 		
 		addDecayRecipes("Neptunium236", "Thorium232");
@@ -45,9 +49,9 @@ public class DecayHastenerRecipes extends ProcessorRecipeHandler {
 		addDecayRecipes("Californium249", "Curium245");
 		addDecayRecipes("Californium250Base", "Curium246Base");
 		addDecayRecipes("Californium251", "Curium247");
-		addDecayRecipes("Californium252Base", "Thorium232");
+		addDecayRecipes("Californium252Base", "Neptunium236");
 		
-		addDecayRecipes("Einsteinium253Base", "Plutonium241");
+		addDecayRecipes("Einsteinium253Base", "Californium249");
 		addDecayRecipes("Einsteinium254", "Californium250Base");
 		addDecayRecipes("Einsteinium255Base", "Curium247");
 		
