@@ -67,7 +67,9 @@ public class FurnaceRecipeHandler {
 		
 		GameRegistry.addSmelting(new ItemStack(NCItems.gem_dust, 1, 1), OreDictHelper.getPrioritisedCraftingStack(new ItemStack(NCItems.dust_oxide, 1, 2), "dustManganeseOxide"), 0F);
 		
+		oxideMaterialRecipes(NCItems.actinium, 1);
 		oxideMaterialRecipes(NCItems.thorium, 2);
+		oxideMaterialRecipes(NCItems.protactinium, 1);
 		oxideMaterialRecipes(NCItems.uranium, 3);
 		oxideMaterialRecipes(NCItems.neptunium, 2);
 		oxideMaterialRecipes(NCItems.plutonium, 4);
