@@ -80,7 +80,9 @@ public class IngotFormerRecipes extends ProcessorRecipeHandler {
 		addRecipe(fluidStack("marshmallow", FluidStackHelper.INGOT_VOLUME), "ingotMarshmallow", 0.5D, 0.5D);
 		
 		// Fission Isotopes
+		addIsotopeFormingRecipes("Actinium", 227);
 		addIsotopeFormingRecipes("Thorium", 230);
+		addIsotopeFormingRecipes("Protactinium", 231);
 		addIngotFormingRecipe("fuel_tbu", "Thorium232Base");
 		addIsotopeFormingRecipes("Uranium", 233, 235, 238);
 		addIsotopeFormingRecipes("Neptunium", 236, 237);
