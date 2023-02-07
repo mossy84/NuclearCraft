@@ -191,7 +191,7 @@ public class CraftingRecipeHandler {
 		addShapedOreRecipe(NCBlocks.accelerator_electromagnet_idle, new Object[] {"SPS", "P P", "SPS", 'P', "plateElite", 'S', "solenoidMagnesiumDiboride"});
 		addShapedOreRecipe(NCBlocks.electromagnet_supercooler_idle, new Object[] {"TIT", "IEI", "TIT", 'T', "ingotTin", 'I', NCBlocks.block_ice, 'E', NCBlocks.accelerator_electromagnet_idle});
 		
-		addShapedOreRecipe(NCBlocks.helium_collector, new Object[] {"PIP", "ITI", "PIP", 'I', "ingotZirconium", 'P', "plateBasic", 'T', "blockThorium230"});
+		addShapedOreRecipe(NCBlocks.helium_collector, new Object[] {"PIP", "ITI", "PIP", 'I', "ingotZirconium", 'P', "plateBasic", 'T', "blockActinium227"});
 		addShapedOreRecipe(NCBlocks.helium_collector_compact, new Object[] {"CCC", "CIC", "CCC", 'C', NCBlocks.helium_collector, 'I', "ingotBronze"});
 		addShapedOreRecipe(NCBlocks.helium_collector_dense, new Object[] {"CCC", "CIC", "CCC", 'C', NCBlocks.helium_collector_compact, 'I', "ingotGold"});
 		
