@@ -66,8 +66,12 @@ public class InfuserRecipes extends ProcessorRecipeHandler {
 		addRecipe(Blocks.HARDENED_CLAY, fluidStack("water", FluidStackHelper.BUCKET_VOLUME*4), Blocks.CLAY, 4D, 1D);
 		
 		// Fission Materials
+		addFertileOxidizingRecipes("Actinium227");
+		
 		addFertileOxidizingRecipes("Thorium230");
 		addFissileOxidizingRecipes("Thorium232");
+		
+		addFertileOxidizingRecipes("Protactinium231");
 		
 		addFissileOxidizingRecipes("Uranium233");
 		addFissileOxidizingRecipes("Uranium235");
