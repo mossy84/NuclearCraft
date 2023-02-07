@@ -50,7 +50,9 @@ public class NCItems {
 	public static Item fuel_rod;
 	public static Item reactor_door;
 	
+	public static Item actinium;
 	public static Item thorium;
+	public static Item protactinium;
 	public static Item uranium;
 	public static Item neptunium;
 	public static Item plutonium;
@@ -144,7 +146,9 @@ public class NCItems {
 		fuel_rod = withName(new NCItem(), "fuel_rod");
 		reactor_door = withName(new NCItemDoor(NCBlocks.reactor_door), "reactor_door_item");
 		
+		actinium = withName(new NCItemMeta(MetaEnums.ActiniumType.class), "actinium");
 		thorium = withName(new NCItemMeta(MetaEnums.ThoriumType.class), "thorium");
+		protactinium = withName(new NCItemMeta(MetaEnums.ProtactiniumType.class), "protactinium");
 		uranium = withName(new NCItemMeta(MetaEnums.UraniumType.class), "uranium");
 		neptunium = withName(new NCItemMeta(MetaEnums.NeptuniumType.class), "neptunium");
 		plutonium = withName(new NCItemMeta(MetaEnums.PlutoniumType.class), "plutonium");
@@ -238,7 +242,9 @@ public class NCItems {
 		registerItem(fuel_rod, null);
 		registerItem(reactor_door, NCTabs.FISSION_BLOCKS);
 		
+		registerItem(actinium. NCTabs.FISSION_MATERIALS);
 		registerItem(thorium, NCTabs.FISSION_MATERIALS);
+		registerItem(protactinium, NCTabs.FISSION_MATERIALS);
 		registerItem(uranium, NCTabs.FISSION_MATERIALS);
 		registerItem(neptunium, NCTabs.FISSION_MATERIALS);
 		registerItem(plutonium, NCTabs.FISSION_MATERIALS);
@@ -360,8 +366,16 @@ public class NCItems {
 		registerRender(fuel_rod);
 		registerRender(reactor_door);
 		
+		for(int i = 0; i < MetaEnums.ActiniumType.values().length; i++) {
+			registerRender(actinium, i, "actinium" + MetaEnums.ActiniumType.values()[i].getName());
+		}
+		
 		for(int i = 0; i < MetaEnums.ThoriumType.values().length; i++) {
 			registerRender(thorium, i, "thorium" + MetaEnums.ThoriumType.values()[i].getName());
+		}
+		
+		for(int i = 0; i < MetaEnums.ProtactiniumType.values().length; i++) {
+			registerRender(protactinium, i, "protactinium" + MetaEnums.ProtactiniumType.values()[i].getName());
 		}
 		
 		for(int i = 0; i < MetaEnums.UraniumType.values().length; i++) {
