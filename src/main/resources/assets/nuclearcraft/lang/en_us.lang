@@ -97,7 +97,9 @@ tile.nuclearcraft.cooler.cooling_rate=Cooling rate:
 tile.nuclearcraft.reactor_door.name=Reactor Door
 tile.nuclearcraft.reactor_trapdoor.name=Reactor Trapdoor
 
+tile.nuclearcraft.block_depleted_actinium.name=Actinium-227 Block
 tile.nuclearcraft.block_depleted_thorium.name=Thorium-230 Block
+tile.nuclearcraft.block_depleted_protactinium.name=Protactinium-231 Block
 tile.nuclearcraft.block_depleted_uranium.name=Uranium-238 Block
 tile.nuclearcraft.block_depleted_neptunium.name=Neptunium-237 Block
 tile.nuclearcraft.block_depleted_plutonium.name=Plutonium-242 Block
@@ -1450,6 +1452,12 @@ info.nuclearcraft.approximately=approximately
 
 item.nuclearcraft.tiny_dust_lead.name=Tiny Pile of Lead Dust
 
+item.nuclearcraft.actinium._227.name=Actinium-227
+item.nuclearcraft.actinium._227_oxide.name=Actinium-227 Oxide
+item.nuclearcraft.actinium._227_tiny.name=Tiny Clump of Actinium-227
+item.nuclearcraft.actinium._227_oxide_tiny.name=Tiny Clump of Actinium-227 Oxide
+item.nuclearcraft.actinium.desc=An isotope of Actinium.
+
 item.nuclearcraft.thorium._230.name=Thorium-230
 item.nuclearcraft.thorium._230_oxide.name=Thorium-230 Oxide
 item.nuclearcraft.thorium._230_tiny.name=Tiny Clump of Thorium-230
@@ -1459,6 +1467,12 @@ item.nuclearcraft.thorium._232_oxide.name=Thorium-232 Oxide
 item.nuclearcraft.thorium._232_tiny.name=Tiny Clump of Thorium-232
 item.nuclearcraft.thorium._232_oxide_tiny.name=Tiny Clump of Thorium-232 Oxide
 item.nuclearcraft.thorium.desc=An isotope of Thorium.
+
+item.nuclearcraft.protactinium._231.name=Protactinium-231
+item.nuclearcraft.protactinium._231_oxide.name=Protactinium-231 Oxide
+item.nuclearcraft.protactinium._231_tiny.name=Tiny Clump of Protactinium-231
+item.nuclearcraft.protactinium._231_oxide_tiny.name=Tiny Clump of Protactinium-231 Oxide
+item.nuclearcraft.protactinium.desc=An isotope of Protactinium.
 
 item.nuclearcraft.uranium._233.name=Uranium-233
 item.nuclearcraft.uranium._233_oxide.name=Uranium-233 Oxide
