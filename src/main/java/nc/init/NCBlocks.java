@@ -176,6 +176,12 @@ public class NCBlocks {
 	public static Block rtg_californium;
 	public static Block rtg_einsteinium;
 	public static Block rtg_fermium;
+	public static Block rtg_californium_compact;
+	public static Block rtg_californium_double_compact;
+	public static Block rtg_californium_triple_compact;
+	public static Block rtg_einsteinium_compact;
+	public static Block rtg_einsteinium_double_compact;
+	public static Block rtg_fermium_compact;
 	
 	public static Block solar_panel_basic;
 	public static Block solar_panel_advanced;
@@ -370,6 +376,12 @@ public class NCBlocks {
 		rtg_californium = withName(new BlockSimpleTile(SimpleTileType.RTG_CALIFORNIUM));
 		rtg_einsteinium = withName(new BlockSimpleTile(SimpleTileType.RTG_EINSTEINIUM));
 		rtg_fermium = withName(new BlockSimpleTile(SimpleTileType.RTG_FERMIUM));
+		rtg_californium_compact = withName(new BlockSimpleTile(SimpleTileType.RTG_CALIFORNIUM_COMPACT);
+		rtg_californium_double_compact = withName(new BlockSimpleTile(SimpleTileType.RTG_CALIFORNIUM_DOUBLE_COMPACT);
+		rtg_californium_triple_compact = withName(new BlockSimpleTile(SimpleTileType.RTG_CALIFORNIUM_TRIPLE_COMPACT);
+		rtg_einsteinium_compact = withName(new BlockSimpleTile(SimpleTileType.RTG_EINSTEINIUM_COMPACT);
+		rtg_einsteinium_double_compact = withName(new BlockSimpleTile(SimpleTileType.RTG_EINSTEINIUM_DOUBLE_COMPACT);
+		rtg_fermium_compact = withName(new BlockSimpleTile(SimpleTileType.RTG_FERMIUM_COMPACT);
 		
 		solar_panel_basic = withName(new BlockSimpleTile(SimpleTileType.SOLAR_PANEL_BASIC));
 		solar_panel_advanced = withName(new BlockSimpleTile(SimpleTileType.SOLAR_PANEL_ADVANCED));
@@ -567,6 +579,12 @@ public class NCBlocks {
 		registerBlock(rtg_californium, InfoHelper.formattedInfo(infoLine("rtg"), UnitHelper.prefix(NCConfig.rtg_power[3], 5, "RF/t")));
 		registerBlock(rtg_einsteinium, InfoHelper.formattedInfo(infoLine("rtg"), UnitHelper.prefix(NCConfig.rtg_power[4], 5, "RF/t")));
 		registerBlock(rtg_fermium, InfoHelper.formattedInfo(infoLine("rtg"), UnitHelper.prefix(NCConfig.rtg_power[5], 5, "RF/t")));
+		registerBlock(rtg_californium_compact, InfoHelper.formattedInfo(infoLine("rtg"), UnitHelper.prefix(NCConfig.rtg_power[3] * 8, 5, "Rf/t")));
+		registerBlock(rtg_californium__double_compact, InfoHelper.formattedInfo(infoLine("rtg"), UnitHelper.prefix(NCConfig.rtg_power[3] * 64, 5, "Rf/t")));
+		registerBlock(rtg_californium__triple_compact, InfoHelper.formattedInfo(infoLine("rtg"), UnitHelper.prefix(NCConfig.rtg_power[3] * 512, 5, "Rf/t")));
+		registerBlock(rtg_einsteinium_compact, InfoHelper.formattedInfo(infoLine("rtg"), UnitHelper.prefix(NCConfig.rtg_power[4] * 8, 5, "Rf/t")));
+		registerBlock(rtg_einsteinium_double_compact, InfoHelper.formattedInfo(infoLine("rtg"), UnitHelper.prefix(NCConfig.rtg_power[3] * 64, 5, "Rf/t")));
+		registerBlock(rtg_fermium_compact, InfoHelper.formattedInfo(infoLine("rtg"), UnitHelper.prefix(NCConfig.rtg_power[5] * 8, 5, "Rf/t")));
 		
 		registerBlock(solar_panel_basic, InfoHelper.formattedInfo(infoLine("solar_panel"), UnitHelper.prefix(NCConfig.solar_power[0], 5, "RF/t")));
 		registerBlock(solar_panel_advanced, InfoHelper.formattedInfo(infoLine("solar_panel"), UnitHelper.prefix(NCConfig.solar_power[1], 5, "RF/t")));
@@ -776,6 +794,12 @@ public class NCBlocks {
 		registerRender(rtg_californium);
 		registerRender(rtg_einsteinium);
 		registerRender(rtg_fermium);
+		registerRender(rtg_californium_compact);
+		registerRender(rtg_californium_double_compact);
+		registerRender(rtg_californium_triple_compact);
+		registerRender(rtg_einsteinium_compact);
+		registerRender(rtg_einsteinium_double_compact);
+		registerRender(rtg_fermium_compact);
 		
 		registerRender(solar_panel_basic);
 		registerRender(solar_panel_advanced);
