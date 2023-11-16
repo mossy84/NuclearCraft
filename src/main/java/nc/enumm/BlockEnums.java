@@ -339,6 +339,18 @@ public class BlockEnums {
 				return new TileRTG.Einsteinium();
 			case RTG_FERMIUM:
 				return new TileRTG.Fermium();
+			case RTG_CALIFORNIUM_COMPACT:
+				return new TileRTG.CaliforniumCompact();
+			case RTG_CALIFORNIUM_DOUBLE_COMPACT:
+				return new TileRTG.CaliforniumDoubleCompact();
+			case RTG_CALIFORNIUM_TRIPLE_COMPACT:
+				return new TileRTG.CaliforniumTripleCompact();
+			case RTG_EINSTEINIUM_COMPACT:
+				return new TileRTG.EinsteiniumCompact();
+			case RTG_EINSTEINIUM_DOUBLE_COMPACT:
+				return new TileRTG.EinsteiniumDoubleCompact();
+			case RTG_FERMIUM_COMPACT:
+				return new TileRTG.FermiumCompact();
 			
 			case SOLAR_PANEL_BASIC:
 				return new TileSolarPanel.Basic();
