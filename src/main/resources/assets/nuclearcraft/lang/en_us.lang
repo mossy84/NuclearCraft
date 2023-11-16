@@ -225,6 +225,12 @@ tile.nuclearcraft.rtg_americium.name=Americium RTG
 tile.nuclearcraft.rtg_californium.name=Californium RTG
 tile.nuclearcraft.rtg_einsteinium.name=Einsteinium RTG
 tile.nuclearcraft.rtg_fermium.name=Fermium RTG
+tile.nuclearcraft.rtg_californium_compact.name=Compact Californium RTG
+tile.nuclearcraft.rtg_californium_double_compact.name=Double Compact Californium RTG
+tile.nuclearcraft.rtg_californium_triple_compact.name=Triple Compact Californium RTG
+tile.nuclearcraft.rtg_einsteinium_compact.name=Compact Einsteinium RTG
+tile.nuclearcraft.rtg_einsteinium_double_compact.name=Double Compact Einsteinium RTG
+tile.nuclearcraft.rtg_fermium_compact.name=Compact Fermium RTG
 tile.nuclearcraft.rtg.desc=Produces %s constantly.
 
 tile.nuclearcraft.solar_panel_basic.name=Basic Solar Panel
@@ -2036,7 +2042,7 @@ gui.config.category.generators=Generator Configs
 gui.config.category.generators.tooltip=Configure generators.
 
 gui.config.generators.rtg_power=RTG Power Gen
-gui.config.generators.rtg_power.comment=RF/t generated. Order: Uranium, Plutonium, Americium, Californium, Einsteinium, Fermium.
+gui.config.generators.rtg_power.comment=RF/t generated. Order: Uranium, Plutonium, Americium, Californium, Einsteinium, Fermium, Compact Californium, Double Compact Californium, Triple Compact Californium, Compact Einsteinium, Double Compact Einsteinium, Compact Fermium.
 gui.config.generators.solar_power=Solar Panel Power Gen
 gui.config.generators.solar_power.comment=RF/t generated. Order: Basic, Advanced, DU, Elite.
 gui.config.generators.decay_lifetime=Decay Generator Mean Lifetimes
