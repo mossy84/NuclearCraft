@@ -579,12 +579,12 @@ public class NCBlocks {
 		registerBlock(rtg_californium, InfoHelper.formattedInfo(infoLine("rtg"), UnitHelper.prefix(NCConfig.rtg_power[3], 5, "RF/t")));
 		registerBlock(rtg_einsteinium, InfoHelper.formattedInfo(infoLine("rtg"), UnitHelper.prefix(NCConfig.rtg_power[4], 5, "RF/t")));
 		registerBlock(rtg_fermium, InfoHelper.formattedInfo(infoLine("rtg"), UnitHelper.prefix(NCConfig.rtg_power[5], 5, "RF/t")));
-		registerBlock(rtg_californium_compact, InfoHelper.formattedInfo(infoLine("rtg"), UnitHelper.prefix(NCConfig.rtg_power[3] * 8, 5, "Rf/t")));
-		registerBlock(rtg_californium__double_compact, InfoHelper.formattedInfo(infoLine("rtg"), UnitHelper.prefix(NCConfig.rtg_power[3] * 64, 5, "Rf/t")));
-		registerBlock(rtg_californium__triple_compact, InfoHelper.formattedInfo(infoLine("rtg"), UnitHelper.prefix(NCConfig.rtg_power[3] * 512, 5, "Rf/t")));
-		registerBlock(rtg_einsteinium_compact, InfoHelper.formattedInfo(infoLine("rtg"), UnitHelper.prefix(NCConfig.rtg_power[4] * 8, 5, "Rf/t")));
-		registerBlock(rtg_einsteinium_double_compact, InfoHelper.formattedInfo(infoLine("rtg"), UnitHelper.prefix(NCConfig.rtg_power[3] * 64, 5, "Rf/t")));
-		registerBlock(rtg_fermium_compact, InfoHelper.formattedInfo(infoLine("rtg"), UnitHelper.prefix(NCConfig.rtg_power[5] * 8, 5, "Rf/t")));
+		registerBlock(rtg_californium_compact, InfoHelper.formattedInfo(infoLine("rtg"), UnitHelper.prefix(NCConfig.rtg_power[3] * 8D, 5, "Rf/t")));
+		registerBlock(rtg_californium__double_compact, InfoHelper.formattedInfo(infoLine("rtg"), UnitHelper.prefix(NCConfig.rtg_power[3] * 64D, 5, "Rf/t")));
+		registerBlock(rtg_californium__triple_compact, InfoHelper.formattedInfo(infoLine("rtg"), UnitHelper.prefix(NCConfig.rtg_power[3] * 512D, 5, "Rf/t")));
+		registerBlock(rtg_einsteinium_compact, InfoHelper.formattedInfo(infoLine("rtg"), UnitHelper.prefix(NCConfig.rtg_power[4] * 8D, 5, "Rf/t")));
+		registerBlock(rtg_einsteinium_double_compact, InfoHelper.formattedInfo(infoLine("rtg"), UnitHelper.prefix(NCConfig.rtg_power[3] * 64D, 5, "Rf/t")));
+		registerBlock(rtg_fermium_compact, InfoHelper.formattedInfo(infoLine("rtg"), UnitHelper.prefix(NCConfig.rtg_power[5] * 8D, 5, "Rf/t")));
 		
 		registerBlock(solar_panel_basic, InfoHelper.formattedInfo(infoLine("solar_panel"), UnitHelper.prefix(NCConfig.solar_power[0], 5, "RF/t")));
 		registerBlock(solar_panel_advanced, InfoHelper.formattedInfo(infoLine("solar_panel"), UnitHelper.prefix(NCConfig.solar_power[1], 5, "RF/t")));
