@@ -316,6 +316,12 @@ public class RadSources {
 		put(CALIFORNIUM_250/4D, NCBlocks.rtg_californium);
 		put(EINSTEINIUM_255/4D, NCBlocks.rtg_einsteinium);
 		put(FERMIUM_254/4D, NCBlocks.rtg_fermium);
+		put(CALIFORNIUM_250*2D, NCBlocks.rtg_californium_compact);
+		put(CALIFORNIUM_250*16D, NCBlocks.rtg_californium_double_compact);
+		put(CALIFORNIUM_250*128D, NCBlocks.rtg_californium_triple_compact);
+		put(EINSTEINIUM_255*2D, NCBlocks.rtg_einsteinium_compact);
+		put(EINSTEINIUM_255*16D, NCBlocks.rtg_einsteinium_double_compact);
+		put(FERMIUM_254*2D, NCBlocks.rtg_fermium_compact);
 		
 		put(THORIUM_230*9D/4D, NCBlocks.helium_collector);
 		put(THORIUM_230*8D*9D/4D, NCBlocks.helium_collector_compact);
