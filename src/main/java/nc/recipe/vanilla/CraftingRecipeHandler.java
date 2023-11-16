@@ -166,6 +166,12 @@ public class CraftingRecipeHandler {
 		addShapedOreRecipe(NCBlocks.rtg_californium, new Object[] {"PGP", "GCG", "PGP", 'G', "ingotGraphite", 'P', "plateAdvanced", 'C', "ingotCalifornium250"});
 		addShapedOreRecipe(NCBlocks.rtg_einsteinium, new Object[] {"PGP", "GEG", "PGP", 'G', "ingotGraphite", 'P', "plateAdvanced", 'E', "ingotEinsteinium255"});
 		addShapedOreRecipe(NCBlocks.rtg_fermium, new Object[] {"PGP", "GFG", "PGP", 'G', "ingotGraphite", 'P', "plateAdvanced", 'F', "ingotFermium254"});
+		addShapedOreRecipe(NCBlocks.rtg_californium_compact, new Object[] {"CCC", "CIC", "CCC", 'C', "NCBlocks.rtg_californium", 'I', "blockIridium"});
+		addShapedOreRecipe(NCBlocks.rtg_californium_double_compact, new Object[] {"SSS", "SMS", "SSS", 'S', "NCBlocks.rtg_californium_compact", 'M', new BucketIngredient("milk")});
+		addShapedOreRecipe(NCBlocks.rtg_californium_triple_compact, new Object[] {"DDD", "DED", "DDD", 'D', "NCBlocks.rtg_californium_double_compact", 'E', Items.DIAMOND});
+		addShapedOreRecipe(NCBlocks.rtg_einsteinium_compact, new Object[] {"EEE", "EIE", "EEE", 'E', "NCBlocks.rtg_einsteinium", 'I', "blockIridium"});
+		addShapedOreRecipe(NCBlocks.rtg_einsteinium_double_compact, new Object[] {"SSS", "SMS", "SSS", 'S', "NCBlocks.rtg_einsteinium_compact", 'M', new BucketIngredient("milk")});
+		addShapedOreRecipe(NCBlocks.rtg_fermium_compact, new Object[] {"FFF", "FIF", "FFF", 'F', "NCBlocks.rtg_fermium", 'I', "blockIridium"});
 		
 		addShapedOreRecipe(NCBlocks.solar_panel_basic, new Object[] {"GQG", "PLP", "CPC", 'G', "dustGraphite", 'Q', "dustQuartz", 'P', Blocks.HEAVY_WEIGHTED_PRESSURE_PLATE, 'L', "gemLapis", 'C', "solenoidCopper"});
 		addShapedOreRecipe(NCBlocks.solar_panel_basic, new Object[] {"GQG", "PLP", "CPC", 'G', "dustGraphite", 'Q', "dustNetherQuartz", 'P', Blocks.HEAVY_WEIGHTED_PRESSURE_PLATE, 'L', "gemLapis", 'C', "solenoidCopper"});
