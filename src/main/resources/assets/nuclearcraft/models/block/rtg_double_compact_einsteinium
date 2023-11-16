@@ -1,0 +1,7 @@
+{
+	"parent": "block/cube_column",
+	"textures": {
+		"end": "nuclearcraft:blocks/rtg_double_compact_einsteinium_top",
+		"side": "nuclearcraft:blocks/rtg_double_compact_einsteinium_side"
+	}
+}
