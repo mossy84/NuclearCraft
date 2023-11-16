@@ -143,6 +143,12 @@ public class NCTiles {
 		GameRegistry.registerTileEntity(TileRTG.Californium.class, Global.MOD_ID + ":rtg_californium");
 		GameRegistry.registerTileEntity(TileRTG.Einsteinium.class, Global.MOD_ID + ":rtg_einsteinium");
 		GameRegistry.registerTileEntity(TileRTG.Fermium.class, Global.MOD_ID + ":rtg_fermium");
+		GameRegistry.registerTileEntity(TileRTG.CaliforniumCompact.class, Global.MOD_ID + ":rtg_californium_compact");
+		GameRegistry.registerTileEntity(TileRTG.CaliforniumDoubleCompact.class, Global.MOD_ID + ":rtg_californium_double_compact");
+		GameRegistry.registerTileEntity(TileRTG.CaliforniumTripleCompact.class, Global.MOD_ID + ":rtg_californium_triple_compact");
+		GameRegistry.registerTileEntity(TileRTG.EinsteiniumCompact.class, Global.MOD_ID + ":rtg_einsteinium_compact");
+		GameRegistry.registerTileEntity(TileRTG.EinsteiniumDoubleCompact.class, Global.MOD_ID + ":rtg_einsteinium_double_compact");
+		GameRegistry.registerTileEntity(TileRTG.FermiumCompact.class, Global.MOD_ID + ":rtg_fermium_compact");
 
 		GameRegistry.registerTileEntity(TileSolarPanel.Basic.class, Global.MOD_ID + ":solar_panel_basic");
 		GameRegistry.registerTileEntity(TileSolarPanel.Advanced.class, Global.MOD_ID + ":solar_panel_advanced");
